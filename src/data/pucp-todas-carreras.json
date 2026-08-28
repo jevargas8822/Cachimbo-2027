@@ -1,0 +1,363 @@
+[
+  {
+    "id": "ingenieria-civil",
+    "nombre": "Ingeniería Civil",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Building2",
+    "color": "#f59e0b",
+    "gradiente": "from-[#d97706] via-[#f59e0b] to-[#ff2fa0]",
+    "badge": "Infraestructura & Construcción",
+    "descripcionCorta": "Diseña, planifica y construye grandes infraestructuras sismorresistentes: edificios, puentes, vías y obras hidráulicas.",
+    "descripcionLarga": [
+      "Diseña, planifica y construye las grandes infraestructuras que sostienen el desarrollo de la sociedad con visión sismorresistente y sostenible."
+    ],
+    "habilidadesClave": ["Diseño Estructural Sismorresistente", "Geotecnia y Mecánica de Suelos", "Gestión BIM y Lean Construction"],
+    "campoLaboral": ["Constructoras e inmobiliarias", "Consultoría estructural", "Supervisión de obras nacionales"],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["construccion", "estructuras", "infraestructura", "fisica", "campo", "gestion", "geotecnia", "calculo"]
+  },
+  {
+    "id": "ingenieria-informatica",
+    "nombre": "Ingeniería Informática",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Laptop",
+    "color": "#8e2de2",
+    "gradiente": "from-[#2b1055] via-[#8e2de2] to-[#00f0ff]",
+    "badge": "Software, Cloud & IA",
+    "descripcionCorta": "Crea arquitecturas de software complejas, plataformas cloud escalables, ciberseguridad e inteligencia artificial.",
+    "descripcionLarga": [
+      "Especialistas en software robusto, arquitecturas computacionales, datos masivos y sistemas inteligentes."
+    ],
+    "habilidadesClave": ["Arquitectura Cloud y Software", "Algoritmia e Inteligencia Artificial", "Ciberseguridad"],
+    "campoLaboral": ["Empresas tecnológicas globales", "Startups y Fintechs", "Liderazgo de proyectos TI"],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["software", "programacion", "ia", "algoritmos", "ciberseguridad", "datos", "computacion", "cloud"]
+  },
+  {
+    "id": "ingenieria-mecatronica",
+    "nombre": "Ingeniería Mecatrónica",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Cpu",
+    "color": "#ff2fa0",
+    "gradiente": "from-[#8e2de2] via-[#e0218a] to-[#ff2fa0]",
+    "badge": "Robótica & Automatización",
+    "descripcionCorta": "Integra mecánica, electrónica, control y computación para dar vida a robots autónomos y sistemas industriales inteligentes.",
+    "descripcionLarga": [
+      "Diseña maquinaria inteligente, sistemas automatizados y tecnología robótica para transformar la industria y la salud."
+    ],
+    "habilidadesClave": ["Robótica y Sistemas Autónomos", "Automatización Industrial 4.0", "Electrónica y Microcontroladores"],
+    "campoLaboral": ["Plantas industriales y automatización", "Robótica y manufactura avanzada", "Biomecatrónica"],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["robotica", "automatizacion", "mecanica", "electronica", "hardware", "control", "sensores", "ia"]
+  },
+  {
+    "id": "ingenieria-industrial",
+    "nombre": "Ingeniería Industrial",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Factory",
+    "color": "#3b82f6",
+    "gradiente": "from-[#1d4ed8] to-[#60a5fa]",
+    "badge": "Optimización & Procesos",
+    "descripcionCorta": "Optimiza cadenas de suministro, logística, operaciones y gestión estratégica en empresas de bienes y servicios globales.",
+    "descripcionLarga": [
+      "Diseña, optimiza y gestiona sistemas integrados de personas, materiales, información y energía para maximizar la productividad y sostenibilidad empresarial."
+    ],
+    "habilidadesClave": ["Logística y Cadena de Suministro", "Lean Manufacturing", "Gestión de Operaciones", "Analítica de Negocios"],
+    "campoLaboral": ["Plantas de manufactura", "Operadores logísticos globales", "Banca y finanzas", "Consultoría estratégica"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["procesos", "gestion", "optimizacion", "logistica", "empresas", "productividad"]
+  },
+  {
+    "id": "ingenieria-biomedica",
+    "nombre": "Ingeniería Biomédica (PUCP-UPCH)",
+    "facultad": "Facultad de Ciencias e Ingeniería / Cayetano Heredia",
+    "categoria": "ingenieria",
+    "icono": "HeartPulse",
+    "color": "#ec4899",
+    "gradiente": "from-[#be185d] to-[#f472b6]",
+    "badge": "Tecnología Médica & Salud",
+    "descripcionCorta": "Desarrolla dispositivos médicos, órganos artificiales, imágenes diagnósticas e ingeniería de tejidos uniendo medicina y tecnología.",
+    "descripcionLarga": [
+      "Carrera interdisciplinaria dictada en conjunto por la PUCP y la Universidad Peruana Cayetano Heredia para innovar en tecnologías para el cuidado de la salud."
+    ],
+    "habilidadesClave": ["Dispositivos Médicos", "Procesamiento de Señales Biológicas", "Biomecánica", "Ingeniería de Tejidos"],
+    "campoLaboral": ["Hospitales y clínicas de alta complejidad", "Industria de equipamiento médico", "Centros de investigación biomédica"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["salud", "medicina", "biomedica", "biologia", "sensores", "dispositivos"]
+  },
+  {
+    "id": "ingenieria-electronica",
+    "nombre": "Ingeniería Electrónica",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Zap",
+    "color": "#eab308",
+    "gradiente": "from-[#ca8a04] to-[#facc15]",
+    "badge": "Circuitos, Embebidos & IoT",
+    "descripcionCorta": "Diseña microchips, sistemas embebidos, telecomunicaciones y circuitos de potencia para dispositivos inteligentes.",
+    "descripcionLarga": [
+      "Especialistas en el diseño de hardware electrónico, procesamiento digital de señales, sistemas embebidos y telecomunicaciones."
+    ],
+    "habilidadesClave": ["Diseño de Circuitos", "Sistemas Embebidos", "Microelectrónica", "Internet de las Cosas (IoT)"],
+    "campoLaboral": ["Diseño de hardware", "Telecomunicaciones", "Automatización", "Aeroespacial"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["electronica", "hardware", "circuitos", "iot", "chips", "sensores"]
+  },
+  {
+    "id": "ingenieria-mecanica",
+    "nombre": "Ingeniería Mecánica",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Wrench",
+    "color": "#64748b",
+    "gradiente": "from-[#334155] to-[#94a3b8]",
+    "badge": "Maquinaria & Termofluidos",
+    "descripcionCorta": "Diseña maquinaria pesada, sistemas térmicos, turbinas y plantas de generación de energía.",
+    "descripcionLarga": [
+      "Cálculo y diseño de elementos mecánicos, centrales de energía, sistemas de refrigeración y plantas industriales."
+    ],
+    "habilidadesClave": ["Diseño Mecánico CAD/CAE", "Termodinámica y Fluidos", "Mantenimiento Industrial", "Energías Renovables"],
+    "campoLaboral": ["Minería y energía", "Industria automotriz", "Plantas hidroeléctricas y térmicas"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["mecanica", "maquinaria", "energia", "motores", "termodinamica", "diseno"]
+  },
+  {
+    "id": "ingenieria-minas",
+    "nombre": "Ingeniería de Minas",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Pickaxe",
+    "color": "#78350f",
+    "gradiente": "from-[#78350f] to-[#b45309]",
+    "badge": "Extracción Sostenible",
+    "descripcionCorta": "Planifica y lidera operaciones mineras subterráneas y superficiales con los más altos estándares de seguridad y sostenibilidad.",
+    "descripcionLarga": [
+      "Extracción responsable de recursos minerales metálicos y no metálicos con tecnología de vanguardia y respeto ambiental."
+    ],
+    "habilidadesClave": ["Perforación y Voladura", "Ventilación de Minas", "Geomecánica", "Gestión de Operaciones Mineras"],
+    "campoLaboral": ["Megaproyectos mineros", "Consultoría geológica y de recursos", "Organismos reguladores"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["mineria", "campo", "geologia", "recursos", "operaciones"]
+  },
+  {
+    "id": "ingenieria-ambiental",
+    "nombre": "Ingeniería Ambiental y Sostenible",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Leaf",
+    "color": "#10b981",
+    "gradiente": "from-[#047857] to-[#34d399]",
+    "badge": "Sostenibilidad & Planeta",
+    "descripcionCorta": "Desarrolla soluciones de descontaminación, tratamiento de aguas, energías limpias y mitigación del cambio climático.",
+    "descripcionLarga": [
+      "Gestión de recursos naturales, monitoreo ambiental, economía circular y tecnologías de mitigación del impacto ecológico."
+    ],
+    "habilidadesClave": ["Tratamiento de Aguas", "Gestión de Residuos", "Evaluación de Impacto Ambiental", "Energías Renovables"],
+    "campoLaboral": ["Consultoría ambiental", "Plantas de tratamiento", "Industrias sostenibles", "Ministerios"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["medioambiente", "sostenibilidad", "ecologia", "agua", "planeta", "clima"]
+  },
+  {
+    "id": "arquitectura",
+    "nombre": "Arquitectura y Urbanismo",
+    "facultad": "Facultad de Arquitectura y Urbanismo",
+    "categoria": "artes",
+    "icono": "Landmark",
+    "color": "#06b6d4",
+    "gradiente": "from-[#0891b2] to-[#67e8f9]",
+    "badge": "Espacio, Ciudad & Diseño",
+    "descripcionCorta": "Proyecta espacios habitables, edificios icónicos y planificación urbana que mejoran la calidad de vida de las comunidades.",
+    "descripcionLarga": [
+      "Crea espacios arquitectónicos armoniosos que integran estética, función, estructura y sostenibilidad para la ciudad contemporánea."
+    ],
+    "habilidadesClave": ["Diseño Arquitectónico", "Planificación Urbana", "Modelado 3D y Maquetación", "Sostenibilidad Espacial"],
+    "campoLaboral": ["Estudios de arquitectura", "Desarrolladoras inmobiliarias", "Urbanismo municipal", "Diseño de interiores"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["arquitectura", "diseno", "espacio", "ciudades", "creatividad", "urbanismo", "estetica"]
+  },
+  {
+    "id": "diseno-industrial",
+    "nombre": "Diseño Industrial",
+    "facultad": "Facultad de Arte y Diseño",
+    "categoria": "artes",
+    "icono": "Compass",
+    "color": "#8b5cf6",
+    "gradiente": "from-[#6d28d9] to-[#a78bfa]",
+    "badge": "Productos & Ergonomía",
+    "descripcionCorta": "Crea productos físicos y digitales innovadores, desde mobiliario y vehículos hasta dispositivos médicos y electrodomésticos.",
+    "descripcionLarga": [
+      "Concepción y prototipado de objetos usables, funcionales y estéticos centrados en la experiencia del usuario y los procesos de manufactura."
+    ],
+    "habilidadesClave": ["Prototipado Rápido", "Ergonomía", "Design Thinking", "Modelado CAD y Renderizado"],
+    "campoLaboral": ["Empresas de producto de consumo", "Estudios de innovación", "Mobiliario y automotriz"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["diseno", "productos", "creatividad", "ergonomia", "prototipos", "fabricacion"]
+  },
+  {
+    "id": "diseno-grafico",
+    "nombre": "Diseño Gráfico",
+    "facultad": "Facultad de Arte y Diseño",
+    "categoria": "artes",
+    "icono": "Palette",
+    "color": "#f43f5e",
+    "gradiente": "from-[#be123c] to-[#fb7185]",
+    "badge": "Identidad Visual & UX",
+    "descripcionCorta": "Comunica visualmente ideas, marcas, experiencias digitales UI/UX, tipografía y narrativa gráfica de alto impacto.",
+    "descripcionLarga": [
+      "Especialistas en comunicación visual, branding, diseño editorial, animación e interfaces de usuario para el mundo digital."
+    ],
+    "habilidadesClave": ["Branding e Identidad Visual", "Diseño UI/UX", "Tipografía y Diagramación", "Ilustración y Animación"],
+    "campoLaboral": ["Agencias de publicidad y branding", "Empresas tech y producto digital", "Estudios creativos"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["diseno", "grafico", "visual", "ux", "ui", "marcas", "creatividad", "arte"]
+  },
+  {
+    "id": "derecho",
+    "nombre": "Derecho",
+    "facultad": "Facultad de Derecho",
+    "categoria": "derecho",
+    "icono": "Scale",
+    "color": "#1e3a8a",
+    "gradiente": "from-[#1e3a8a] to-[#3b82f6]",
+    "badge": "Justicia, Leyes & Empresa",
+    "descripcionCorta": "Formación jurídica líder en litigio, derecho corporativo, arbitraje internacional y defensa de derechos fundamentales.",
+    "descripcionLarga": [
+      "Análisis crítico de las normas jurídicas, argumentación legal, resolución de controversias y asesoría legal estratégica a empresas y personas."
+    ],
+    "habilidadesClave": ["Argumentación Jurídica", "Derecho Corporativo", "Litigio y Arbitraje", "Derecho Constitucional e Internacional"],
+    "campoLaboral": ["Estudios de abogados líderes", "Gerencias legales de empresas", "Poder Judicial", "Organismos internacionales"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["leyes", "justicia", "argumentacion", "debate", "derecho", "empresas", "contratos"]
+  },
+  {
+    "id": "gestion",
+    "nombre": "Gestión y Alta Dirección",
+    "facultad": "Facultad de Gestión y Alta Dirección",
+    "categoria": "gestion",
+    "icono": "TrendingUp",
+    "color": "#0284c7",
+    "gradiente": "from-[#0369a1] to-[#38bdf8]",
+    "badge": "Liderazgo & Estrategia",
+    "descripcionCorta": "Lidera organizaciones privadas, públicas y sociales con visión estratégica, innovación y toma de decisiones basada en datos.",
+    "descripcionLarga": [
+      "Formación integral en gestión empresarial, gestión pública y gestión social para dirigir proyectos y transformar organizaciones."
+    ],
+    "habilidadesClave": ["Estrategia Organizacional", "Gestión del Talento", "Finanzas y Presupuestos", "Innovación y Emprendimiento"],
+    "campoLaboral": ["Dirección de empresas", "Consultoría de negocios", "Gestión pública", "Startups"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["liderazgo", "negocios", "estrategia", "empresas", "gestion", "administracion"]
+  },
+  {
+    "id": "economia",
+    "nombre": "Economía",
+    "facultad": "Facultad de Ciencias Sociales",
+    "categoria": "sociales",
+    "icono": "LineChart",
+    "color": "#059669",
+    "gradiente": "from-[#047857] to-[#10b981]",
+    "badge": "Mercados & Política Pública",
+    "descripcionCorta": "Analiza el funcionamiento de los mercados, la política monetaria, la macroeconomía y el impacto socioeconómico nacional.",
+    "descripcionLarga": [
+      "Modelamiento econométrico cuantitativo y análisis cualitativo para diseñar políticas públicas y tomar decisiones financieras."
+    ],
+    "habilidadesClave": ["Econometría y Análisis Cuantitativo", "Macroeconomía", "Evaluación de Políticas Públicas", "Finanzas"],
+    "campoLaboral": ["Banco Central de Reserva (BCRP)", "Banca de inversión", "Ministerio de Economía (MEF)", "Organismos multilaterales (BM, FMI)"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["economia", "finanzas", "datos", "politica", "mercados", "numeros", "investigacion"]
+  },
+  {
+    "id": "psicologia",
+    "nombre": "Psicología",
+    "facultad": "Facultad de Psicología",
+    "categoria": "sociales",
+    "icono": "Brain",
+    "color": "#a855f7",
+    "gradiente": "from-[#7e22ce] to-[#c084fc]",
+    "badge": "Conducta, Mente & Salud",
+    "descripcionCorta": "Comprende los procesos mentales, la conducta humana y promueve el bienestar psicológico en áreas clínica, social y organizacional.",
+    "descripcionLarga": [
+      "Evaluación e intervención psicológica con sólido sustento científico en salud mental, neurociencias y desarrollo humano."
+    ],
+    "habilidadesClave": ["Evaluación Psicológica", "Intervención Clínica", "Psicología Organizacional", "Neurociencias"],
+    "campoLaboral": ["Clínicas y hospitales", "Gestión humana en empresas", "Investigación", "Centros educativos"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["mente", "salud", "personas", "conducta", "empatia", "psicologia", "bienestar"]
+  },
+  {
+    "id": "comunicacion-audiovisual",
+    "nombre": "Comunicación Audiovisual",
+    "facultad": "Facultad de Ciencias y Artes de la Comunicación",
+    "categoria": "artes",
+    "icono": "Film",
+    "color": "#f97316",
+    "gradiente": "from-[#c2410c] to-[#fb923c]",
+    "badge": "Cine, Series & Narrativa",
+    "descripcionCorta": "Crea producciones cinematográficas, series de ficción, documentales y contenido digital con alto valor narrativo y técnico.",
+    "descripcionLarga": [
+      "Dirección cinematográfica, guionismo, producción, dirección de fotografía, sonido y montaje audiovisual."
+    ],
+    "habilidadesClave": ["Dirección y Producción", "Guion Audiovisual", "Dirección de Fotografía", "Edición y Postproducción"],
+    "campoLaboral": ["Casas productoras de cine y TV", "Plataformas de streaming", "Agencias de contenido digital"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["cine", "video", "audiovisual", "historias", "creatividad", "camara", "produccion"]
+  },
+  {
+    "id": "publicidad",
+    "nombre": "Publicidad",
+    "facultad": "Facultad de Ciencias y Artes de la Comunicación",
+    "categoria": "artes",
+    "icono": "Megaphone",
+    "color": "#ea580c",
+    "gradiente": "from-[#9a3412] to-[#fdba74]",
+    "badge": "Creatividad & Marcas",
+    "descripcionCorta": "Desarrolla campañas creativas, estrategias de marketing digital, insights del consumidor y posicionamiento de marca.",
+    "descripcionLarga": [
+      "Planificación estratégica, creatividad publicitaria, medios digitales y redacción persuasiva."
+    ],
+    "habilidadesClave": ["Estrategia de Marca", "Creatividad Publicitaria", "Marketing Digital y Redes", "Investigación del Consumidor"],
+    "campoLaboral": ["Agencias de publicidad", "Marcas globales y startups", "Consultoras de marketing"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["publicidad", "marcas", "creatividad", "marketing", "persuasion", "comunicacion"]
+  },
+  {
+    "id": "gastronomia",
+    "nombre": "Gastronomía",
+    "facultad": "Facultad de Gastronomía, Hotelería y Turismo",
+    "categoria": "artes",
+    "icono": "Utensils",
+    "color": "#d97706",
+    "gradiente": "from-[#b45309] to-[#fbbf24]",
+    "badge": "Innovación Culinaria",
+    "descripcionCorta": "Investigación culinaria, técnicas de alta cocina, valorización de la biodiversidad peruana y gestión de restaurantes.",
+    "descripcionLarga": [
+      "Formación integral que une técnicas de cocina, ciencia de los alimentos, gestión restaurantera y patrimonio gastronómico."
+    ],
+    "habilidadesClave": ["Técnicas Culinarias Avanzadas", "Ciencia de Alimentos", "Gestión Gastronómica", "Innovación en Carta"],
+    "campoLaboral": ["Restaurantes de alta cocina", "Hotelería internacional", "Desarrollo de productos alimenticios", "Emprendimiento"],
+    "disponible": true,
+    "tieneMallaDetallada": false,
+    "tags": ["cocina", "gastronomia", "alimentos", "creatividad", "restaurantes", "cultura"]
+  }
+]

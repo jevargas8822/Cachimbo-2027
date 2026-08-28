@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ingenieria-civil",
+    "nombre": "Ingeniería Civil",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Building2",
+    "color": "#f59e0b",
+    "gradiente": "from-[#d97706] via-[#f59e0b] to-[#ff2fa0]",
+    "badge": "Infraestructura & Construcción",
+    "descripcionCorta": "Diseña, planifica y construye las grandes infraestructuras que sostienen la sociedad: edificios, puentes, carreteras, aeropuertos y obras hidráulicas.",
+    "descripcionLarga": [
+      "Esta carrera te forma para diseñar, planificar, construir y mantener las grandes infraestructuras que sostienen el desarrollo de la sociedad, como edificios, puentes, carreteras, aeropuertos y obras hidráulicas.",
+      "Durante los estudios aprenderás a combinar las ciencias físicas, la mecánica de suelos y el uso de materiales resistentes con la gestión integral de proyectos, asegurando que cada obra sea estructuralmente segura, eficiente y respetuosa con el medio ambiente."
+    ],
+    "unDiaEnLaVida": {
+      "titulo": "Un día en la vida de un estudiante de Civil",
+      "narrativa": [
+        "Las mañanas suelen empezar en los laboratorios de materiales y mecánica de suelos, donde ensayamos probetas de concreto y analizamos la resistencia del terreno para simular sismos reales.",
+        "Por las tardes nos concentramos en los talleres de diseño estructural y modelamiento BIM (Building Information Modeling), calculando cargas y planificando los cronogramas de obra con software especializado.",
+        "Lo más emocionante es la combinación constante entre el trabajo en gabinete y las visitas de campo: ves cómo los cálculos matemáticos se convierten en estructuras reales que protegerán a miles de personas."
+      ],
+      "autor": "Mateo Ramos",
+      "ciclo": "8vo Ciclo"
+    },
+    "habilidadesClave": [
+      "Diseño y Análisis Estructural Sismorresistente",
+      "Mecánica de Suelos y Geotecnia Avanzada",
+      "Modelado BIM y Gestión de Obras Civiles (Lean)",
+      "Recursos Hídricos, Canales y Obras Hidráulicas",
+      "Diseño Geométrico de Vías y Pavimentos"
+    ],
+    "campoLaboral": [
+      "Empresas constructoras e inmobiliarias de gran envergadura",
+      "Consultoría y cálculo estructural sismorresistente",
+      "Supervisión y gestión de obras viales e hidráulicas",
+      "Organismos públicos y proyectos de infraestructura nacional",
+      "Gestión ambiental y prevención de riesgos de desastres"
+    ],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["construccion", "estructuras", "infraestructura", "fisica", "campo", "gestion", "geotecnia", "calculo"]
+  },
+  {
+    "id": "ingenieria-informatica",
+    "nombre": "Ingeniería Informática",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Laptop",
+    "color": "#8e2de2",
+    "gradiente": "from-[#2b1055] via-[#8e2de2] to-[#00f0ff]",
+    "badge": "Software, Cloud & IA",
+    "descripcionCorta": "Analiza, diseña y desarrolla arquitecturas de software complejas, plataformas cloud escalables y soluciones con inteligencia artificial.",
+    "descripcionLarga": [
+      "Esta especialidad se enfoca en el análisis, diseño, desarrollo e implementación de sistemas de software complejos, arquitecturas computacionales y gestión masiva de datos.",
+      "Más allá de aprender a programar, la carrera te capacita para estructurar plataformas digitales escalables, implementar medidas de ciberseguridad y aplicar inteligencia artificial, transformando necesidades reales en soluciones tecnológicas efectivas para el mundo digital."
+    ],
+    "unDiaEnLaVida": {
+      "titulo": "Un día en la vida de un estudiante de Informática",
+      "narrativa": [
+        "Empiezo el día revisando código y diagramas de arquitectura de software para proyectos grupales, donde aplicamos patrones de diseño y metodologías ágiles tipo Scrum.",
+        "En los laboratorios trabajamos desde el desarrollo de algoritmos avanzados e inteligencia artificial hasta la configuración de bases de datos distribuidas y pruebas de penetración en ciberseguridad.",
+        "Lo genial de informática en la PUCP es que desde ciclos intermedios estás creando soluciones funcionales: no solo programas código que compila, sino sistemas completos con backend robusto, cloud computing y seguridad empresarial."
+      ],
+      "autor": "Valeria Silva",
+      "ciclo": "7mo Ciclo"
+    },
+    "habilidadesClave": [
+      "Arquitectura de Software y Soluciones Cloud",
+      "Algoritmia Avanzada y Estructuras de Datos Complejas",
+      "Inteligencia Artificial, Machine Learning y Data Science",
+      "Ciberseguridad Ofensiva y Defensiva",
+      "Gobierno y Gestión de Tecnologías de Información (TI)"
+    ],
+    "campoLaboral": [
+      "Empresas tecnológicas globales (Big Tech, Startups, Fintechs)",
+      "Arquitectura de software y soluciones Cloud (AWS, Azure, GCP)",
+      "Desarrollo de Inteligencia Artificial y Ciencia de Datos",
+      "Liderazgo técnico y gestión de proyectos de TI",
+      "Ciberseguridad y auditoría de sistemas de información"
+    ],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["software", "programacion", "ia", "algoritmos", "ciberseguridad", "datos", "computacion", "cloud"]
+  },
+  {
+    "id": "ingenieria-mecatronica",
+    "nombre": "Ingeniería Mecatrónica",
+    "facultad": "Facultad de Ciencias e Ingeniería",
+    "categoria": "ingenieria",
+    "icono": "Cpu",
+    "color": "#ff2fa0",
+    "gradiente": "from-[#8e2de2] via-[#e0218a] to-[#ff2fa0]",
+    "badge": "Robótica & Automatización",
+    "descripcionCorta": "Integra ingeniería mecánica, electrónica, computación y sistemas de control para diseñar máquinas inteligentes, sistemas automatizados y tecnología robótica.",
+    "descripcionLarga": [
+      "Esta disciplina combina lo mejor de la ingeniería mecánica, la electrónica, la computación y los sistemas de control para diseñar máquinas inteligentes, sistemas automatizados y tecnología robótica.",
+      "A lo largo de la carrera aprenderás desde cómo estructurar el diseño físico de un mecanismo hasta cómo programar el software que le otorga autonomía, permitiéndote optimizar procesos en industrias de alta tecnología, manufactura avanzada y biomedicina."
+    ],
+    "unDiaEnLaVida": {
+      "titulo": "Un día en la vida de un estudiante de Mecatrónica",
+      "narrativa": [
+        "Paso la mañana en el taller diseñando componentes en CAD 3D, imprimiendo piezas o cortándolas en CNC para el chasis de nuestro proyecto de robótica.",
+        "Por la tarde me voy al laboratorio de electrónica y control para soldar placas de circuitos, calibrar sensores y programar microcontroladores que ejecuten algoritmos de visión por computadora.",
+        "Ver cómo un robot que tú diseñaste desde el boceto mecánico, cableaste electrónicamente y programaste cobra vida y resuelve tareas autónomamente es una sensación inigualable."
+      ],
+      "autor": "Diego Cárdenas",
+      "ciclo": "9no Ciclo"
+    },
+    "habilidadesClave": [
+      "Diseño y Control de Robots Autónomos e Industriales",
+      "Automatización Industrial e Industria 4.0 (PLCs, SCADA)",
+      "Diseño Mecánico CAD/CAE y Manufactura Digital",
+      "Electrónica Digital y Procesamiento de Señales e Imágenes",
+      "Biomecatrónica, Prótesis y Sistemas Embebidos"
+    ],
+    "campoLaboral": [
+      "Automatización y control de procesos en plantas industriales",
+      "Desarrollo e integración de robots industriales y de servicio",
+      "Industria automotriz, aeroespacial y manufactura avanzada",
+      "Desarrollo de dispositivos biomédicos y prótesis biónicas",
+      "Investigación e innovación en sistemas ciberfísicos e IoT"
+    ],
+    "disponible": true,
+    "tieneMallaDetallada": true,
+    "tags": ["robotica", "automatizacion", "mecanica", "electronica", "hardware", "control", "sensores", "ia"]
+  }
+]

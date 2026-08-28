@@ -1,0 +1,4717 @@
+{
+  "ingenieria-civil": {
+    "carreraId": "ingenieria-civil",
+    "totalCiclos": 10,
+    "ciclos": [
+      {
+        "numero": 1,
+        "nombre": "1er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Fundamentos en ciencias exactas y habilidades de comunicación universitaria.",
+        "cursos": [
+          {
+            "id": "civ-101",
+            "codigo": "1MAT04",
+            "nombre": "Álgebra Matricial y Geometría Analítica",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas estructurales y físicos con rigor analítico. Es la base indispensable para los cursos de física y modelado computacional.",
+            "tipAlumno": "Entiende vectores en 3D; será vital en Estática y Resistencia de Materiales.",
+            "autorTip": "Gonzalo V. (7mo Ciclo)"
+          },
+          {
+            "id": "civ-102",
+            "codigo": "1MAT05",
+            "nombre": "Fundamentos de Cálculo",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio en todo fenómeno físico e ingenieril. Te prepara para el razonamiento matemático superior.",
+            "tipAlumno": "Domina el razonamiento formal y análisis de funciones desde la semana 1.",
+            "autorTip": "Camila T. (5to Ciclo)"
+          },
+          {
+            "id": "civ-103",
+            "codigo": "1FIS01",
+            "nombre": "Fundamentos de Física",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en sistemas mecánicos reales. Es el primer pilar de la física universitaria en ingeniería.",
+            "tipAlumno": "Los diagramas de cuerpo libre (DCL) deben ser impecables.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-104",
+            "codigo": "1QUI01",
+            "nombre": "Química 1",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
+          },
+          {
+            "id": "civ-105",
+            "codigo": "1QUI02",
+            "nombre": "Laboratorio de Química 1",
+            "creditos": 0.75,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
+          },
+          {
+            "id": "civ-106",
+            "codigo": "1LIN15",
+            "nombre": "Comunicación Académica",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "2do Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Cálculo diferencial, física clásica, dibujo técnico y electivo humanidades 1.",
+        "cursos": [
+          {
+            "id": "civ-201",
+            "codigo": "1MAT06",
+            "nombre": "Cálculo Diferencial",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT05",
+              "1MAT04"
+            ],
+            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación y calcular áreas bajo la curva aplicadas a la física y la ingeniería. Fundamental para el análisis dinámico de sistemas."
+          },
+          {
+            "id": "civ-202",
+            "codigo": "1FIS02",
+            "nombre": "Física 1",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS01",
+              "1MAT06"
+            ],
+            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para entender sistemas en movimiento periódico y equilibrio de fluidos en reposo y movimiento.",
+            "tipAlumno": "El momento de inercia es la base directa para calcular vigas y columnas.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-203",
+            "codigo": "1FIS03",
+            "nombre": "Laboratorio de Física 1",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
+          },
+          {
+            "id": "civ-204",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional.",
+            "tipAlumno": "Los planos son el lenguaje diario del ingeniero civil. Domina AutoCAD.",
+            "autorTip": "Gonzalo V. (7mo Ciclo)"
+          },
+          {
+            "id": "civ-205",
+            "codigo": "1LIN16",
+            "nombre": "Trabajo Académico",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1LIN15"
+            ],
+            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
+          },
+          {
+            "id": "civ-206",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+          },
+          {
+            "id": "civ-207",
+            "codigo": "EH1",
+            "nombre": "Electivo de Humanidades 1",
+            "creditos": 2,
+            "tipo": "electivo",
+            "ciclo": 2,
+            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1HIS02",
+                "nombre": "Historia de la Ciencia",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HIS03",
+                "nombre": "Historia Contemporánea",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM02",
+                "nombre": "Ética y Ciudadanía",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI02",
+                "nombre": "Motivación y Liderazgo",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI03",
+                "nombre": "Desarrollo de Habilidades Personales",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC01",
+                "nombre": "Curso de Tema Libre 1",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC02",
+                "nombre": "Curso de Tema Libre 2",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM03",
+                "nombre": "Electivo de Humanidades 1 (Convalidación)",
+                "creditos": 2
+              }
+            ]
+          },
+          {
+            "id": "civ-208",
+            "codigo": "IDM101",
+            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
+            "creditos": 0,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "3er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Cálculo multivariable, termodinámica, algoritmos y electivo humanidades 2.",
+        "cursos": [
+          {
+            "id": "civ-301",
+            "codigo": "1MAT07",
+            "nombre": "Cálculo Integral",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT06",
+              "1MAT04"
+            ],
+            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular volúmenes de revolución, longitudes de arco y convergencia de aproximaciones numéricas en ingeniería."
+          },
+          {
+            "id": "civ-302",
+            "codigo": "1MAT08",
+            "nombre": "Cálculo en Varias Variables",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT07"
+            ],
+            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+          },
+          {
+            "id": "civ-303",
+            "codigo": "1FIS04",
+            "nombre": "Física 2",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS02",
+              "1FIS03",
+              "1MAT07"
+            ],
+            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos.",
+            "tipAlumno": "La hidrostática y Bernoulli son el punto de partida para tus cursos de hidráulica.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-304",
+            "codigo": "1FIS05",
+            "nombre": "Laboratorio de Física 2",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS04"
+            ],
+            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas electromagnéticos y circuitos en laboratorio."
+          },
+          {
+            "id": "civ-305",
+            "codigo": "1INF01",
+            "nombre": "Fundamentos de Programación",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados."
+          },
+          {
+            "id": "civ-306",
+            "codigo": "EH2",
+            "nombre": "Electivo de Humanidades 2",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 3,
+            "descripcion": "Espacio curricular flexible de 3er Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ANT01",
+                "nombre": "Antropología Urbana",
+                "creditos": 3
+              },
+              {
+                "codigo": "1ARQ11",
+                "nombre": "Tecnología Prehispánica",
+                "creditos": 3
+              },
+              {
+                "codigo": "1LIT16",
+                "nombre": "Literatura",
+                "creditos": 3
+              },
+              {
+                "codigo": "1PSI04",
+                "nombre": "Psicología",
+                "creditos": 3
+              },
+              {
+                "codigo": "1SOC01",
+                "nombre": "Sociología",
+                "creditos": 3
+              },
+              {
+                "codigo": "CCO103",
+                "nombre": "Taller de Teatro",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC03",
+                "nombre": "Curso de Tema Libre 3",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC04",
+                "nombre": "Curso de Tema Libre 4",
+                "creditos": 3
+              },
+              {
+                "codigo": "1HUM04",
+                "nombre": "Electivo de Humanidades 2 (Convalidación)",
+                "creditos": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "4to Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Ecuaciones diferenciales, electromagnetismo, Estática y electivo teología.",
+        "cursos": [
+          {
+            "id": "civ-401",
+            "codigo": "1MAT09",
+            "nombre": "Cálculo Aplicado",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1MAT08"
+            ],
+            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
+          },
+          {
+            "id": "civ-402",
+            "codigo": "1FIS06",
+            "nombre": "Física 3",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS04",
+              "1FIS05"
+            ],
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
+          },
+          {
+            "id": "civ-403",
+            "codigo": "1FIS07",
+            "nombre": "Laboratorio de Física 3",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS06"
+            ],
+            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
+          },
+          {
+            "id": "civ-404",
+            "codigo": "ING693",
+            "nombre": "Mecánica para Ingenieros 1 (Estática)",
+            "creditos": 5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS02",
+              "1MAT07"
+            ],
+            "descripcion": "Analiza el ciclo de vida de proyectos de ingeniería, evaluación de impacto ambiental, sostenibilidad ecológica y marco normativo peruano. Fomenta el diseño de soluciones de infraestructura y tecnología con bajo impacto ecológico y compromiso con la sociedad.",
+            "tipAlumno": "¡El curso clave de EEGGCC para Civil! Domina los diagramas de cortante y momento.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-405",
+            "codigo": "TEO",
+            "nombre": "Electivo de Teología y Religión",
+            "creditos": 3.5,
+            "tipo": "electivo",
+            "ciclo": 4,
+            "descripcion": "Espacio curricular flexible de 4to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "CDR121",
+                "nombre": "Ciencia, Ética y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1CDR01",
+                "nombre": "Cultura y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "CDR123",
+                "nombre": "Pensamiento Cristiano y Realidad Social",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "TEO111",
+                "nombre": "Teología 1",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO01",
+                "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO02",
+                "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO03",
+                "nombre": "Revelación de Dios en la Historia",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO04",
+                "nombre": "Electivo de Teología y Religión (Convalidación)",
+                "creditos": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "5to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Entrada a Facultad: Resistencia de Materiales, Dinámica, Tecnología del Concreto y Electivo Cultura General.",
+        "cursos": [
+          {
+            "id": "civ-501",
+            "codigo": "1CIV40",
+            "nombre": "Resistencia de Materiales 1",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "ING693",
+              "1MAT07"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Resistencia de Materiales 1. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Domina el Círculo de Mohr al revés y al derecho; es la base para diseñar en concreto y acero.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-502",
+            "codigo": "1ING14",
+            "nombre": "Dinámica",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "ING693",
+              "1MAT07"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Dinámica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-503",
+            "codigo": "2CIV04",
+            "nombre": "Tecnología del Concreto",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1CIV40",
+              "CIV281"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Tecnología del Concreto. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Hacer diseños de mezcla a mano te enseña por qué la relación a/c manda en la resistencia final.",
+            "autorTip": "Gonzalo V. (7mo Ciclo)"
+          },
+          {
+            "id": "civ-504",
+            "codigo": "CIV229",
+            "nombre": "Fundamentos de Ingeniería Ambiental",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Fundamentos de Ingeniería Ambiental. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-505",
+            "codigo": "CIV281",
+            "nombre": "Laboratorio de Materiales",
+            "creditos": 1,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Materiales. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-506",
+            "codigo": "EST218",
+            "nombre": "Estadística para Ingeniería",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1MAT07"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Estadística para Ingeniería. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-507",
+            "codigo": "EL-CG1",
+            "nombre": "Un (1) Electivo de Cultura General",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 5,
+            "descripcion": "Espacio curricular flexible de 5to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ACT01",
+                "nombre": "Fenómenos Naturales y Desastres",
+                "creditos": 2
+              },
+              {
+                "codigo": "1ART03",
+                "nombre": "Diseño Responsable",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "1ART11",
+                "nombre": "Arte y Naturaleza",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "1GEO03",
+                "nombre": "Geografía y Medioambiente",
+                "creditos": 4
+              },
+              {
+                "codigo": "1HIS16",
+                "nombre": "Historia Mundial del Siglo XX",
+                "creditos": 4
+              },
+              {
+                "codigo": "1HIS20",
+                "nombre": "Historia del Perú Republicano",
+                "creditos": 4
+              },
+              {
+                "codigo": "ARC237",
+                "nombre": "Seminario Ciudad y Ordenamiento Territorial",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "DIN230",
+                "nombre": "Historia del Diseño Industrial",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "FIL149",
+                "nombre": "Epistemología",
+                "creditos": 4
+              },
+              {
+                "codigo": "URB207",
+                "nombre": "Problemas del Hábitat Urbano",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "nombre": "6to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Resistencia 2, procesos de construcción, mecánica de fluidos y electivos de cultura.",
+        "cursos": [
+          {
+            "id": "civ-601",
+            "codigo": "2CIV01",
+            "nombre": "Resistencia de Materiales 2",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1CIV40"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Resistencia de Materiales 2. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-602",
+            "codigo": "2CIV05",
+            "nombre": "Procedimientos y Procesos de Construcción en Edificaciones",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "2CIV04",
+              "CIV281"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Procedimientos y Procesos de Construcción en Edificaciones. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-603",
+            "codigo": "2CIV06",
+            "nombre": "Introducción al Análisis Estructural",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "2CIV01"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Introducción al Análisis Estructural. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "El puente de oro hacia Análisis Estructural. Comprende bien el método pendiente-deflexión.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-604",
+            "codigo": "2CIV07",
+            "nombre": "Materiales de Construcción",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Materiales de Construcción. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-605",
+            "codigo": "CIV274",
+            "nombre": "Mecánica de Fluidos",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1ING14"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Mecánica de Fluidos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-606",
+            "codigo": "CIV275",
+            "nombre": "Laboratorio de Mecánica de Fluidos",
+            "creditos": 0.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Mecánica de Fluidos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-607",
+            "codigo": "EL-CG2",
+            "nombre": "Un (1) Electivo de Cultura General",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 6,
+            "descripcion": "Espacio curricular flexible de 6to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ACT01",
+                "nombre": "Fenómenos Naturales y Desastres",
+                "creditos": 2
+              },
+              {
+                "codigo": "1ART03",
+                "nombre": "Diseño Responsable",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "1ART11",
+                "nombre": "Arte y Naturaleza",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "1GEO03",
+                "nombre": "Geografía y Medioambiente",
+                "creditos": 4
+              },
+              {
+                "codigo": "1HIS16",
+                "nombre": "Historia Mundial del Siglo XX",
+                "creditos": 4
+              },
+              {
+                "codigo": "1HIS20",
+                "nombre": "Historia del Perú Republicano",
+                "creditos": 4
+              },
+              {
+                "codigo": "ARC237",
+                "nombre": "Seminario Ciudad y Ordenamiento Territorial",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "DIN230",
+                "nombre": "Historia del Diseño Industrial",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "FIL149",
+                "nombre": "Epistemología",
+                "creditos": 4
+              },
+              {
+                "codigo": "URB207",
+                "nombre": "Problemas del Hábitat Urbano",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              }
+            ]
+          },
+          {
+            "id": "civ-608",
+            "codigo": "EL-CC1",
+            "nombre": "Un (1) Electivo de Cultura Científica",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 6,
+            "descripcion": "Espacio curricular flexible de 6to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1IAS06",
+                "nombre": "Filosofía Tecnología y Ambiente",
+                "creditos": 2,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IEE02",
+                "nombre": "Temas de Ingeniería Electrónica 1",
+                "creditos": 3.5,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1INT40",
+                "nombre": "Investigación Forense",
+                "creditos": 3
+              },
+              {
+                "codigo": "1QUI24",
+                "nombre": "Química en la Ingeniería de Materiales",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "BIO103",
+                "nombre": "Biología",
+                "creditos": 4
+              },
+              {
+                "codigo": "ING306",
+                "nombre": "Ciencia e Ingeniería Espacial",
+                "creditos": 3.5,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "ING339",
+                "nombre": "Introduction to Aeronautical Engineering",
+                "creditos": 3.5,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "PSI125",
+                "nombre": "Neurociencias",
+                "creditos": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "nombre": "7mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Análisis estructural matricial, hidráulica fluvial, geología y electivo científico.",
+        "cursos": [
+          {
+            "id": "civ-701",
+            "codigo": "2CIV02",
+            "nombre": "Análisis Estructural",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "2CIV01",
+              "2CIV06"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Análisis Estructural. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Entender la matriz [K] te enseñará cómo funcionan por dentro SAP2000 y ETABS.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-702",
+            "codigo": "2CIV03",
+            "nombre": "Hidráulica de Canales Abiertos",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "CIV274"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Hidráulica de Canales Abiertos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-703",
+            "codigo": "2CIV08",
+            "nombre": "Hidrología",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "CIV274",
+              "EST218"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Hidrología. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-704",
+            "codigo": "2CIV09",
+            "nombre": "Evaluación Económica de Proyectos de Edificación",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "2CIV07",
+              "2CIV05"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Evaluación Económica de Proyectos de Edificación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-705",
+            "codigo": "2CIV10",
+            "nombre": "Geología",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Geología. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-706",
+            "codigo": "CIV277",
+            "nombre": "Laboratorio de Hidráulica de Canales",
+            "creditos": 0.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Hidráulica de Canales. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-707",
+            "codigo": "CIV290",
+            "nombre": "Laboratorio de Geología",
+            "creditos": 0.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Geología. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-708",
+            "codigo": "EL-CC2",
+            "nombre": "Un (1) Electivo de Cultura Científica",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 7,
+            "descripcion": "Espacio curricular flexible de 7mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1IAS06",
+                "nombre": "Filosofía Tecnología y Ambiente",
+                "creditos": 2,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IEE02",
+                "nombre": "Temas de Ingeniería Electrónica 1",
+                "creditos": 3.5,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1INT40",
+                "nombre": "Investigación Forense",
+                "creditos": 3
+              },
+              {
+                "codigo": "1QUI24",
+                "nombre": "Química en la Ingeniería de Materiales",
+                "creditos": 3,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "BIO103",
+                "nombre": "Biología",
+                "creditos": 4
+              },
+              {
+                "codigo": "ING306",
+                "nombre": "Ciencia e Ingeniería Espacial",
+                "creditos": 3.5,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "ING339",
+                "nombre": "Introduction to Aeronautical Engineering",
+                "creditos": 3.5,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "PSI125",
+                "nombre": "Neurociencias",
+                "creditos": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "nombre": "8vo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Ingeniería Geotécnica, Ingeniería Sismorresistente y Concreto Armado 1.",
+        "cursos": [
+          {
+            "id": "civ-801",
+            "codigo": "1CIV41",
+            "nombre": "Ingeniería Geotécnica",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "2CIV06",
+              "2CIV10",
+              "CIV294"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería Geotécnica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Todo edificio se apoya en el suelo; entender la capacidad admisible del terreno evita fallas.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-802",
+            "codigo": "2CIV11",
+            "nombre": "Ingeniería Sismorresistente",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "2CIV02",
+              "1ING14"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería Sismorresistente. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "El curso insignia de la PUCP a nivel mundial. Aprenderás a diseñar contra terremotos severos.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-803",
+            "codigo": "CIV226",
+            "nombre": "Concreto Armado 1",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "2CIV02",
+              "2CIV04"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Concreto Armado 1. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aquí calculas exactamente cuántas varillas de acero y qué estribos lleva cada elemento.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-804",
+            "codigo": "2CIV12",
+            "nombre": "Ingeniería de Transporte",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería de Transporte. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-805",
+            "codigo": "2CIV13",
+            "nombre": "Planeamiento de Proyectos de Edificación",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Planeamiento de Proyectos de Edificación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-806",
+            "codigo": "CIV294",
+            "nombre": "Laboratorio de Mecánica de Suelos",
+            "creditos": 1,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Mecánica de Suelos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "nombre": "9no Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Proyecto Integrador, Plan de Tesis, Ética y 12 créditos electivos.",
+        "cursos": [
+          {
+            "id": "civ-901",
+            "codigo": "2CIV16",
+            "nombre": "Proyecto Integrador en Ingeniería Civil",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "prerequisitos": [
+              "CIV226",
+              "2CIV11",
+              "1CIV41",
+              "2CIV13",
+              "2CIV03",
+              "CIV229",
+              "2CIV12"
+            ],
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Proyecto Integrador en Ingeniería Civil. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Simula el trabajo real en una consultora de ingeniería. La coordinación es clave.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-902",
+            "codigo": "2CIV15",
+            "nombre": "Plan de Tesis",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Plan de Tesis. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-903",
+            "codigo": "1ING15",
+            "nombre": "Ética y Responsabilidad Social",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ética y Responsabilidad Social. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "civ-904",
+            "codigo": "EL-TEC1",
+            "nombre": "Un (1) Electivo de Tecnología e Innovación",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 9,
+            "descripcion": "Espacio curricular flexible de 9no Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1FIS36",
+                "nombre": "Tecnología Solar Fotovoltaica",
+                "creditos": 3,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IAS33",
+                "nombre": "Living Lab Huyro",
+                "creditos": 3.5,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IND57",
+                "nombre": "Gestión de la Innovación",
+                "creditos": 3,
+                "prerequisitos": "170 créditos"
+              },
+              {
+                "codigo": "IND345",
+                "nombre": "Data Mining",
+                "creditos": 3,
+                "prerequisitos": "EST218"
+              },
+              {
+                "codigo": "IND353",
+                "nombre": "Seis Sigma",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "IND367",
+                "nombre": "Creatividad e Innovación",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "INF238",
+                "nombre": "Redes de Computadoras",
+                "creditos": 4,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "INF247",
+                "nombre": "Tecnologías de Información",
+                "creditos": 4,
+                "prerequisitos": "80 créditos"
+              }
+            ]
+          },
+          {
+            "id": "civ-905",
+            "codigo": "EL-ESP9",
+            "nombre": "Cursos Electivos de Especialidad (9 Créditos)",
+            "creditos": 9,
+            "tipo": "electivo",
+            "ciclo": 9,
+            "descripcion": "Espacio curricular flexible de 9no Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1CIV44",
+                "nombre": "Concreto Armado 2",
+                "creditos": 3,
+                "prerequisitos": "CIV226, 2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV45",
+                "nombre": "Estructuras de Acero",
+                "creditos": 3,
+                "prerequisitos": "2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV48",
+                "nombre": "Puentes",
+                "creditos": 3,
+                "prerequisitos": "2CIV11, CIV226",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV49",
+                "nombre": "Concreto Pretensado",
+                "creditos": 3,
+                "prerequisitos": "CIV226, 2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "2CIV18",
+                "nombre": "Protección Sísmica por Aislamiento y Disipación",
+                "creditos": 3,
+                "prerequisitos": "2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV53",
+                "nombre": "Modelación de Información para la Construcción (BIM)",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV54",
+                "nombre": "Construcción Sostenible",
+                "creditos": 3,
+                "prerequisitos": "160 créditos",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV73",
+                "nombre": "Gestión de Proyectos de Construcción",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV76",
+                "nombre": "Gestión de la Construcción Sin Pérdidas (Lean Construction)",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV60",
+                "nombre": "Diseño Geotécnico",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV81",
+                "nombre": "Diseño de Presas de Tierra y Relaves",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV87",
+                "nombre": "Mecánica de Rocas",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV88",
+                "nombre": "Ingeniería de Cimentaciones",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV55",
+                "nombre": "Sistemas de Agua Potable y Alcantarillado",
+                "creditos": 3,
+                "prerequisitos": "2CIV03, CIV277",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV56",
+                "nombre": "Fundamentos de Hidráulica Computacional",
+                "creditos": 3,
+                "prerequisitos": "CIV277, 2CIV03",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV58",
+                "nombre": "Estructuras Hidráulicas",
+                "creditos": 3,
+                "prerequisitos": "CIV277, 2CIV03",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV92",
+                "nombre": "Ingeniería de Carreteras",
+                "creditos": 3,
+                "prerequisitos": "2CIV12",
+                "area": "Transportes"
+              },
+              {
+                "codigo": "CIV306",
+                "nombre": "Ingeniería de Tráfico",
+                "creditos": 3.5,
+                "prerequisitos": "2CIV12",
+                "area": "Transportes"
+              },
+              {
+                "codigo": "CIV355",
+                "nombre": "Seguridad Vial",
+                "creditos": 3.5,
+                "prerequisitos": "140 créditos",
+                "area": "Transportes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "nombre": "10mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Trabajo de Tesis, Electivo de Gestión, Electivo de Tecnología y 9 créditos de especialidad.",
+        "cursos": [
+          {
+            "id": "civ-1001",
+            "codigo": "2CIV17",
+            "nombre": "Trabajo de Tesis",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "prerequisitos": [
+              "2CIV16",
+              "2CIV15"
+            ],
+            "descripcion": "Asignatura especializada de 10mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Trabajo de Tesis. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprovecha la mesa vibratoria y los laboratorios de estructuras de la PUCP.",
+            "autorTip": "Andrea F. (9no Ciclo)"
+          },
+          {
+            "id": "civ-1002",
+            "codigo": "EL-TEC2",
+            "nombre": "Un (1) Electivo de Tecnología e Innovación",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1FIS36",
+                "nombre": "Tecnología Solar Fotovoltaica",
+                "creditos": 3,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IAS33",
+                "nombre": "Living Lab Huyro",
+                "creditos": 3.5,
+                "prerequisitos": "CIV229"
+              },
+              {
+                "codigo": "1IND57",
+                "nombre": "Gestión de la Innovación",
+                "creditos": 3,
+                "prerequisitos": "170 créditos"
+              },
+              {
+                "codigo": "IND345",
+                "nombre": "Data Mining",
+                "creditos": 3,
+                "prerequisitos": "EST218"
+              },
+              {
+                "codigo": "IND353",
+                "nombre": "Seis Sigma",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "IND367",
+                "nombre": "Creatividad e Innovación",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "INF238",
+                "nombre": "Redes de Computadoras",
+                "creditos": 4,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "INF247",
+                "nombre": "Tecnologías de Información",
+                "creditos": 4,
+                "prerequisitos": "80 créditos"
+              }
+            ]
+          },
+          {
+            "id": "civ-1003",
+            "codigo": "EL-GES",
+            "nombre": "Un (1) Electivo de Gestión",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1DER08",
+                "nombre": "Legislación",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "1GES61",
+                "nombre": "Contabilidad Financiera",
+                "creditos": 4
+              },
+              {
+                "codigo": "1IND39",
+                "nombre": "Logística Humanitaria",
+                "creditos": 3,
+                "prerequisitos": "110 créditos"
+              },
+              {
+                "codigo": "ECO204",
+                "nombre": "Economía General",
+                "creditos": 4.5,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "GES103",
+                "nombre": "Gestión de Organizaciones",
+                "creditos": 4
+              },
+              {
+                "codigo": "IND251",
+                "nombre": "Gestión y Dirección de Empresas",
+                "creditos": 3.5,
+                "prerequisitos": "80 créditos"
+              },
+              {
+                "codigo": "IND328",
+                "nombre": "Gestión de Proyectos",
+                "creditos": 3,
+                "prerequisitos": "150 créditos"
+              },
+              {
+                "codigo": "IND350",
+                "nombre": "Plan de Negocios",
+                "creditos": 3,
+                "prerequisitos": "170 créditos"
+              },
+              {
+                "codigo": "IND363",
+                "nombre": "Gestión de la Calidad",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              }
+            ]
+          },
+          {
+            "id": "civ-1004",
+            "codigo": "EL-ESP10",
+            "nombre": "Cursos Electivos de Especialidad (9 Créditos)",
+            "creditos": 9,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1CIV44",
+                "nombre": "Concreto Armado 2",
+                "creditos": 3,
+                "prerequisitos": "CIV226, 2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV45",
+                "nombre": "Estructuras de Acero",
+                "creditos": 3,
+                "prerequisitos": "2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV48",
+                "nombre": "Puentes",
+                "creditos": 3,
+                "prerequisitos": "2CIV11, CIV226",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV49",
+                "nombre": "Concreto Pretensado",
+                "creditos": 3,
+                "prerequisitos": "CIV226, 2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "2CIV18",
+                "nombre": "Protección Sísmica por Aislamiento y Disipación",
+                "creditos": 3,
+                "prerequisitos": "2CIV11",
+                "area": "Estructuras"
+              },
+              {
+                "codigo": "1CIV53",
+                "nombre": "Modelación de Información para la Construcción (BIM)",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV54",
+                "nombre": "Construcción Sostenible",
+                "creditos": 3,
+                "prerequisitos": "160 créditos",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV73",
+                "nombre": "Gestión de Proyectos de Construcción",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV76",
+                "nombre": "Gestión de la Construcción Sin Pérdidas (Lean Construction)",
+                "creditos": 3,
+                "prerequisitos": "2CIV13",
+                "area": "Construcción"
+              },
+              {
+                "codigo": "1CIV60",
+                "nombre": "Diseño Geotécnico",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV81",
+                "nombre": "Diseño de Presas de Tierra y Relaves",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV87",
+                "nombre": "Mecánica de Rocas",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV88",
+                "nombre": "Ingeniería de Cimentaciones",
+                "creditos": 3,
+                "prerequisitos": "1CIV41, CIV294",
+                "area": "Geotecnia"
+              },
+              {
+                "codigo": "1CIV55",
+                "nombre": "Sistemas de Agua Potable y Alcantarillado",
+                "creditos": 3,
+                "prerequisitos": "2CIV03, CIV277",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV56",
+                "nombre": "Fundamentos de Hidráulica Computacional",
+                "creditos": 3,
+                "prerequisitos": "CIV277, 2CIV03",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV58",
+                "nombre": "Estructuras Hidráulicas",
+                "creditos": 3,
+                "prerequisitos": "CIV277, 2CIV03",
+                "area": "Hidráulica"
+              },
+              {
+                "codigo": "1CIV92",
+                "nombre": "Ingeniería de Carreteras",
+                "creditos": 3,
+                "prerequisitos": "2CIV12",
+                "area": "Transportes"
+              },
+              {
+                "codigo": "CIV306",
+                "nombre": "Ingeniería de Tráfico",
+                "creditos": 3.5,
+                "prerequisitos": "2CIV12",
+                "area": "Transportes"
+              },
+              {
+                "codigo": "CIV355",
+                "nombre": "Seguridad Vial",
+                "creditos": 3.5,
+                "prerequisitos": "140 créditos",
+                "area": "Transportes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "electivosEstudiosGenerales": [
+      {
+        "titulo": "Electivos de Humanidades 1 (EH1) - Ciclo 2",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (2.0 cr)",
+        "cursos": [
+          {
+            "codigo": "1HIS02",
+            "nombre": "Historia de la Ciencia",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HIS03",
+            "nombre": "Historia Contemporánea",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM02",
+            "nombre": "Ética y Ciudadanía",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI02",
+            "nombre": "Motivación y Liderazgo",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI03",
+            "nombre": "Desarrollo de Habilidades Personales",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC01",
+            "nombre": "Curso de Tema Libre 1",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC02",
+            "nombre": "Curso de Tema Libre 2",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM03",
+            "nombre": "Electivo de Humanidades 1 (Convalidación)",
+            "creditos": 2
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Humanidades 2 (EH2) - Ciclo 3",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.0 cr)",
+        "cursos": [
+          {
+            "codigo": "1ANT01",
+            "nombre": "Antropología Urbana",
+            "creditos": 3
+          },
+          {
+            "codigo": "1ARQ11",
+            "nombre": "Tecnología Prehispánica",
+            "creditos": 3
+          },
+          {
+            "codigo": "1LIT16",
+            "nombre": "Literatura",
+            "creditos": 3
+          },
+          {
+            "codigo": "1PSI04",
+            "nombre": "Psicología",
+            "creditos": 3
+          },
+          {
+            "codigo": "1SOC01",
+            "nombre": "Sociología",
+            "creditos": 3
+          },
+          {
+            "codigo": "CCO103",
+            "nombre": "Taller de Teatro",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC03",
+            "nombre": "Curso de Tema Libre 3",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC04",
+            "nombre": "Curso de Tema Libre 4",
+            "creditos": 3
+          },
+          {
+            "codigo": "1HUM04",
+            "nombre": "Electivo de Humanidades 2 (Convalidación)",
+            "creditos": 3
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Teología y Religión - Ciclo 4",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.5 cr)",
+        "cursos": [
+          {
+            "codigo": "CDR121",
+            "nombre": "Ciencia, Ética y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1CDR01",
+            "nombre": "Cultura y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "CDR123",
+            "nombre": "Pensamiento Cristiano y Realidad Social",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "TEO111",
+            "nombre": "Teología 1",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO01",
+            "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO02",
+            "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO03",
+            "nombre": "Revelación de Dios en la Historia",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO04",
+            "nombre": "Electivo de Teología y Religión (Convalidación)",
+            "creditos": 3.5
+          }
+        ]
+      }
+    ],
+    "electivosFacultad": [
+      {
+        "titulo": "Área de Estructuras",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1CIV44",
+            "nombre": "Concreto Armado 2",
+            "creditos": 3,
+            "prerequisitos": "CIV226, 2CIV11",
+            "area": "Estructuras"
+          },
+          {
+            "codigo": "1CIV45",
+            "nombre": "Estructuras de Acero",
+            "creditos": 3,
+            "prerequisitos": "2CIV11",
+            "area": "Estructuras"
+          },
+          {
+            "codigo": "1CIV48",
+            "nombre": "Puentes",
+            "creditos": 3,
+            "prerequisitos": "2CIV11, CIV226",
+            "area": "Estructuras"
+          },
+          {
+            "codigo": "1CIV49",
+            "nombre": "Concreto Pretensado",
+            "creditos": 3,
+            "prerequisitos": "CIV226, 2CIV11",
+            "area": "Estructuras"
+          },
+          {
+            "codigo": "2CIV18",
+            "nombre": "Protección Sísmica por Aislamiento y Disipación",
+            "creditos": 3,
+            "prerequisitos": "2CIV11",
+            "area": "Estructuras"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Construcción y Gestión",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1CIV53",
+            "nombre": "Modelación de Información para la Construcción (BIM)",
+            "creditos": 3,
+            "prerequisitos": "2CIV13",
+            "area": "Construcción"
+          },
+          {
+            "codigo": "1CIV54",
+            "nombre": "Construcción Sostenible",
+            "creditos": 3,
+            "prerequisitos": "160 créditos",
+            "area": "Construcción"
+          },
+          {
+            "codigo": "1CIV73",
+            "nombre": "Gestión de Proyectos de Construcción",
+            "creditos": 3,
+            "prerequisitos": "2CIV13",
+            "area": "Construcción"
+          },
+          {
+            "codigo": "1CIV76",
+            "nombre": "Gestión de la Construcción Sin Pérdidas (Lean Construction)",
+            "creditos": 3,
+            "prerequisitos": "2CIV13",
+            "area": "Construcción"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Geotecnia",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1CIV60",
+            "nombre": "Diseño Geotécnico",
+            "creditos": 3,
+            "prerequisitos": "1CIV41, CIV294",
+            "area": "Geotecnia"
+          },
+          {
+            "codigo": "1CIV81",
+            "nombre": "Diseño de Presas de Tierra y Relaves",
+            "creditos": 3,
+            "prerequisitos": "1CIV41, CIV294",
+            "area": "Geotecnia"
+          },
+          {
+            "codigo": "1CIV87",
+            "nombre": "Mecánica de Rocas",
+            "creditos": 3,
+            "prerequisitos": "1CIV41, CIV294",
+            "area": "Geotecnia"
+          },
+          {
+            "codigo": "1CIV88",
+            "nombre": "Ingeniería de Cimentaciones",
+            "creditos": 3,
+            "prerequisitos": "1CIV41, CIV294",
+            "area": "Geotecnia"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Medio Ambiente y Recursos Hídricos",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1CIV55",
+            "nombre": "Sistemas de Agua Potable y Alcantarillado",
+            "creditos": 3,
+            "prerequisitos": "2CIV03, CIV277",
+            "area": "Hidráulica"
+          },
+          {
+            "codigo": "1CIV56",
+            "nombre": "Fundamentos de Hidráulica Computacional",
+            "creditos": 3,
+            "prerequisitos": "CIV277, 2CIV03",
+            "area": "Hidráulica"
+          },
+          {
+            "codigo": "1CIV58",
+            "nombre": "Estructuras Hidráulicas",
+            "creditos": 3,
+            "prerequisitos": "CIV277, 2CIV03",
+            "area": "Hidráulica"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Movilidad y Transporte",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1CIV92",
+            "nombre": "Ingeniería de Carreteras",
+            "creditos": 3,
+            "prerequisitos": "2CIV12",
+            "area": "Transportes"
+          },
+          {
+            "codigo": "CIV306",
+            "nombre": "Ingeniería de Tráfico",
+            "creditos": 3.5,
+            "prerequisitos": "2CIV12",
+            "area": "Transportes"
+          },
+          {
+            "codigo": "CIV355",
+            "nombre": "Seguridad Vial",
+            "creditos": 3.5,
+            "prerequisitos": "140 créditos",
+            "area": "Transportes"
+          }
+        ]
+      }
+    ]
+  },
+  "ingenieria-informatica": {
+    "carreraId": "ingenieria-informatica",
+    "totalCiclos": 10,
+    "ciclos": [
+      {
+        "numero": 1,
+        "nombre": "1er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Fundamentos en ciencias exactas y habilidades de comunicación.",
+        "cursos": [
+          {
+            "id": "inf-101",
+            "codigo": "1MAT04",
+            "nombre": "Álgebra Matricial y Geometría Analítica",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas estructurales y físicos con rigor analítico. Es la base indispensable para los cursos de física y modelado computacional.",
+            "tipAlumno": "Las matrices son la base de los gráficos por computadora y las redes neuronales.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-102",
+            "codigo": "1MAT05",
+            "nombre": "Fundamentos de Cálculo",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio en todo fenómeno físico e ingenieril. Te prepara para el razonamiento matemático superior.",
+            "tipAlumno": "El rigor lógico de este curso te servirá para estructurar algoritmos limpios.",
+            "autorTip": "Carlos M. (6to Ciclo)"
+          },
+          {
+            "id": "inf-103",
+            "codigo": "1FIS01",
+            "nombre": "Fundamentos de Física",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en sistemas mecánicos reales. Es el primer pilar de la física universitaria en ingeniería."
+          },
+          {
+            "id": "inf-104",
+            "codigo": "1QUI01",
+            "nombre": "Química 1",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
+          },
+          {
+            "id": "inf-105",
+            "codigo": "1QUI02",
+            "nombre": "Laboratorio de Química 1",
+            "creditos": 0.75,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
+          },
+          {
+            "id": "inf-106",
+            "codigo": "1LIN15",
+            "nombre": "Comunicación Académica",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "2do Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Cálculo diferencial, física, dibujo asistido y electivo humanidades 1.",
+        "cursos": [
+          {
+            "id": "inf-201",
+            "codigo": "1MAT06",
+            "nombre": "Cálculo Diferencial",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT05",
+              "1MAT04"
+            ],
+            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación y calcular áreas bajo la curva aplicadas a la física y la ingeniería. Fundamental para el análisis dinámico de sistemas."
+          },
+          {
+            "id": "inf-202",
+            "codigo": "1FIS02",
+            "nombre": "Física 1",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS01",
+              "1MAT06"
+            ],
+            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para entender sistemas en movimiento periódico y equilibrio de fluidos en reposo y movimiento."
+          },
+          {
+            "id": "inf-203",
+            "codigo": "1FIS03",
+            "nombre": "Laboratorio de Física 1",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
+          },
+          {
+            "id": "inf-204",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional."
+          },
+          {
+            "id": "inf-205",
+            "codigo": "1LIN16",
+            "nombre": "Trabajo Académico",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1LIN15"
+            ],
+            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
+          },
+          {
+            "id": "inf-206",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+          },
+          {
+            "id": "inf-207",
+            "codigo": "EH1",
+            "nombre": "Electivo de Humanidades 1",
+            "creditos": 2,
+            "tipo": "electivo",
+            "ciclo": 2,
+            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1HIS02",
+                "nombre": "Historia de la Ciencia",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HIS03",
+                "nombre": "Historia Contemporánea",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM02",
+                "nombre": "Ética y Ciudadanía",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI02",
+                "nombre": "Motivación y Liderazgo",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI03",
+                "nombre": "Desarrollo de Habilidades Personales",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC01",
+                "nombre": "Curso de Tema Libre 1",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC02",
+                "nombre": "Curso de Tema Libre 2",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM03",
+                "nombre": "Electivo de Humanidades 1 (Convalidación)",
+                "creditos": 2
+              }
+            ]
+          },
+          {
+            "id": "inf-208",
+            "codigo": "IDM101",
+            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
+            "creditos": 0,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "3er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Cálculo multivariable, Fundamentos de Programación y Estructuras Discretas.",
+        "cursos": [
+          {
+            "id": "inf-301",
+            "codigo": "1MAT07",
+            "nombre": "Cálculo Integral",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT06",
+              "1MAT04"
+            ],
+            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular volúmenes de revolución, longitudes de arco y convergencia de aproximaciones numéricas en ingeniería."
+          },
+          {
+            "id": "inf-302",
+            "codigo": "1MAT08",
+            "nombre": "Cálculo en Varias Variables",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT07"
+            ],
+            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+          },
+          {
+            "id": "inf-303",
+            "codigo": "1FIS04",
+            "nombre": "Física 2",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS02",
+              "1FIS03",
+              "1MAT07"
+            ],
+            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos."
+          },
+          {
+            "id": "inf-304",
+            "codigo": "1FIS05",
+            "nombre": "Laboratorio de Física 2",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS04"
+            ],
+            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas electromagnéticos y circuitos en laboratorio."
+          },
+          {
+            "id": "inf-305",
+            "codigo": "1INF01",
+            "nombre": "Fundamentos de Programación",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados.",
+            "tipAlumno": "Prueba tus programas con casos límite; los tests automáticos evalúan todo.",
+            "autorTip": "Carlos M. (6to Ciclo)"
+          },
+          {
+            "id": "inf-306",
+            "codigo": "INF134",
+            "nombre": "Estructuras Discretas",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT07"
+            ],
+            "descripcion": "Asignatura especializada de 3er Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Estructuras Discretas. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "¡Clave absoluta! Todo lo que aprendas aquí lo usarás en IA y Base de Datos.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-307",
+            "codigo": "EH2",
+            "nombre": "Electivo de Humanidades 2",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 3,
+            "descripcion": "Espacio curricular flexible de 3er Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ANT01",
+                "nombre": "Antropología Urbana",
+                "creditos": 3
+              },
+              {
+                "codigo": "1ARQ11",
+                "nombre": "Tecnología Prehispánica",
+                "creditos": 3
+              },
+              {
+                "codigo": "1LIT16",
+                "nombre": "Literatura",
+                "creditos": 3
+              },
+              {
+                "codigo": "1PSI04",
+                "nombre": "Psicología",
+                "creditos": 3
+              },
+              {
+                "codigo": "1SOC01",
+                "nombre": "Sociología",
+                "creditos": 3
+              },
+              {
+                "codigo": "CCO103",
+                "nombre": "Taller de Teatro",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC03",
+                "nombre": "Curso de Tema Libre 3",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC04",
+                "nombre": "Curso de Tema Libre 4",
+                "creditos": 3
+              },
+              {
+                "codigo": "1HUM04",
+                "nombre": "Electivo de Humanidades 2 (Convalidación)",
+                "creditos": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "4to Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Técnicas de programación (filtro de EEGGCC), Física 3 y Electivo Teología.",
+        "cursos": [
+          {
+            "id": "inf-401",
+            "codigo": "1MAT09",
+            "nombre": "Cálculo Aplicado",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1MAT08"
+            ],
+            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
+          },
+          {
+            "id": "inf-402",
+            "codigo": "1FIS06",
+            "nombre": "Física 3",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS04",
+              "1FIS05"
+            ],
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
+          },
+          {
+            "id": "inf-403",
+            "codigo": "1FIS07",
+            "nombre": "Laboratorio de Física 3",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS06"
+            ],
+            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
+          },
+          {
+            "id": "inf-404",
+            "codigo": "INF144",
+            "nombre": "Técnicas de Programación",
+            "creditos": 5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1INF01"
+            ],
+            "descripcion": "Asignatura especializada de 4to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Técnicas de Programación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "El curso legendario de EEGGCC. Aprende a depurar con gdb para evitar Segmentation Faults.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-405",
+            "codigo": "TEO",
+            "nombre": "Electivo de Teología y Religión",
+            "creditos": 3.5,
+            "tipo": "electivo",
+            "ciclo": 4,
+            "descripcion": "Espacio curricular flexible de 4to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "CDR121",
+                "nombre": "Ciencia, Ética y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1CDR01",
+                "nombre": "Cultura y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "CDR123",
+                "nombre": "Pensamiento Cristiano y Realidad Social",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "TEO111",
+                "nombre": "Teología 1",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO01",
+                "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO02",
+                "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO03",
+                "nombre": "Revelación de Dios en la Historia",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO04",
+                "nombre": "Electivo de Teología y Religión (Convalidación)",
+                "creditos": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "5to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Entrada a Facultad: POO (Prog 2), Algoritmos y Estructura de Datos, Base de Datos.",
+        "cursos": [
+          {
+            "id": "inf-501",
+            "codigo": "1INF25",
+            "nombre": "Programación 2",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "INF144",
+              "1INF27"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Programación 2. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprenderás a pensar en clases. Aplica principios SOLID.",
+            "autorTip": "Carlos M. (6to Ciclo)"
+          },
+          {
+            "id": "inf-502",
+            "codigo": "1INF27",
+            "nombre": "Algoritmia y Estructura de Datos",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "INF144"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Algoritmia y Estructura de Datos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "El curso más importante para entrevistas en Big Tech y Startups.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-503",
+            "codigo": "1INF33",
+            "nombre": "Base de Datos",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "70 créditos",
+              "INF144"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Base de Datos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Escribir buenas consultas SQL evita caídas de servidores en producción.",
+            "autorTip": "Joaquín L. (8vo Ciclo)"
+          },
+          {
+            "id": "inf-504",
+            "codigo": "1INF28",
+            "nombre": "Fundamentos de Sistemas de Información",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Fundamentos de Sistemas de Información. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-505",
+            "codigo": "1INF49",
+            "nombre": "Ingeniería de Requisitos",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería de Requisitos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-506",
+            "codigo": "1IND90",
+            "nombre": "Empresa y su Entorno",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Empresa y su Entorno. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-507",
+            "codigo": "1GES92",
+            "nombre": "Taller de Habilidades Interpersonales",
+            "creditos": 1,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Taller de Habilidades Interpersonales. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "nombre": "6to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Sistemas Operativos, Programación 3 (Cliente-Servidor) y Arquitectura de Computadoras.",
+        "cursos": [
+          {
+            "id": "inf-601",
+            "codigo": "1INF29",
+            "nombre": "Sistemas Operativos",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1ELE01",
+              "1INF25"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Sistemas Operativos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Resolverás problemas clásicos de concurrencia y semáforos.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-602",
+            "codigo": "1INF30",
+            "nombre": "Programación 3",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1INF25",
+              "1INF33",
+              "1INF27"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Programación 3. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Construyes una aplicación de escritorio conectada a BD remota.",
+            "autorTip": "Carlos M. (6to Ciclo)"
+          },
+          {
+            "id": "inf-603",
+            "codigo": "1ELE01",
+            "nombre": "Arquitectura de Computadoras",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1FIS06",
+              "1FIS07",
+              "INF134"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Arquitectura de Computadoras. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-604",
+            "codigo": "1INF31",
+            "nombre": "Arquitectura de Software",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1INF49"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Arquitectura de Software. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-605",
+            "codigo": "1INF32",
+            "nombre": "Algoritmos Avanzados",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1INF27",
+              "1INF25"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Algoritmos Avanzados. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-606",
+            "codigo": "1EST22",
+            "nombre": "Probabilidad y Estadística",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1MAT09"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Probabilidad y Estadística. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-607",
+            "codigo": "1CON27",
+            "nombre": "Contabilidad y Finanzas",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1IND90"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Contabilidad y Finanzas. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "nombre": "7mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Inteligencia Artificial, Redes de Computadoras y Diseño de Software.",
+        "cursos": [
+          {
+            "id": "inf-701",
+            "codigo": "1INF24",
+            "nombre": "Inteligencia Artificial",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1INF32"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Inteligencia Artificial. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Programarás bots capaces de jugar ajedrez o resolver laberintos por sí solos.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-702",
+            "codigo": "INF238",
+            "nombre": "Redes de Computadoras",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1ELE01"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Redes de Computadoras. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprende a usar Wireshark para analizar paquetes de red en tiempo real.",
+            "autorTip": "Joaquín L. (8vo Ciclo)"
+          },
+          {
+            "id": "inf-703",
+            "codigo": "1INF50",
+            "nombre": "Diseño de Software",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1INF31"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Diseño de Software. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-704",
+            "codigo": "1INF34",
+            "nombre": "Modelado y Automatización de Procesos",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1CON27",
+              "1INF28"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Modelado y Automatización de Procesos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-705",
+            "codigo": "1INF35",
+            "nombre": "Administración de Sistemas Operativos",
+            "creditos": 2.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1INF29"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Administración de Sistemas Operativos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-706",
+            "codigo": "IND231",
+            "nombre": "Ingeniería Económica",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería Económica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "nombre": "8vo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Ingeniería de Software profesional, Seguridad de Información y Formulación de Tesis.",
+        "cursos": [
+          {
+            "id": "inf-801",
+            "codigo": "1INF37",
+            "nombre": "Ingeniería de Software",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1INF30",
+              "1INF50",
+              "INF238"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería de Software. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Trabajas en equipo con sprints reales y entregables semanales de código.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-802",
+            "codigo": "1INF41",
+            "nombre": "Seguridad de Información",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1INF39"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Seguridad de Información. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprenderás a proteger aplicaciones contra inyecciones SQL y ataques XSS.",
+            "autorTip": "Joaquín L. (8vo Ciclo)"
+          },
+          {
+            "id": "inf-803",
+            "codigo": "1INF38",
+            "nombre": "Innovación y Emprendimiento con TI",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Innovación y Emprendimiento con TI. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-804",
+            "codigo": "1INF39",
+            "nombre": "Gobierno y Gestión de TI",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Gobierno y Gestión de TI. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-805",
+            "codigo": "1INF65",
+            "nombre": "Sistemas de Información para Negocios",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Sistemas de Información para Negocios. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-806",
+            "codigo": "1INF26",
+            "nombre": "Formulación de Proyecto de Fin de Carrera",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Formulación de Proyecto de Fin de Carrera. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "nombre": "9no Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Proyecto de Desarrollo de Software con cliente real y 6 créditos electivos.",
+        "cursos": [
+          {
+            "id": "inf-901",
+            "codigo": "1INF54",
+            "nombre": "Proyecto de Diseño y Desarrollo de Software",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "prerequisitos": [
+              "1INF37"
+            ],
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Proyecto de Diseño y Desarrollo de Software. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Desarrollas un sistema para un cliente real; vitrina clave de contratación.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-902",
+            "codigo": "1INF42",
+            "nombre": "Proyecto de Fin de Carrera 1",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Primera etapa del desarrollo del proyecto de grado o tesis profesional bajo la asesoría de docentes especialistas. Incluye el marco teórico, estado del arte, caracterización del problema ingenieril y propuesta metodológica de diseño o investigación."
+          },
+          {
+            "id": "inf-903",
+            "codigo": "1INF44",
+            "nombre": "Arquitectura Empresarial",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Arquitectura Empresarial. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-904",
+            "codigo": "IND328",
+            "nombre": "Gestión de Proyectos",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Gestión de Proyectos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-905",
+            "codigo": "EL-INF9",
+            "nombre": "Cursos Electivos de Especialidad (Mínimo 6.0 Créditos)",
+            "creditos": 6,
+            "tipo": "electivo",
+            "ciclo": 9,
+            "descripcion": "Espacio curricular flexible de 9no Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1INF02",
+                "nombre": "Aprendizaje de Máquina (Machine Learning)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF03",
+                "nombre": "Análisis de Datos (Data Science)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF52",
+                "nombre": "Deep Learning (Redes Neuronales Profundas)",
+                "creditos": 3,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF59",
+                "nombre": "Procesamiento de Lenguaje Natural (NLP)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF60",
+                "nombre": "Aprendizaje por Refuerzo",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF64",
+                "nombre": "Gestión de Inteligencia Artificial Empresarial",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24, 1INF41"
+              },
+              {
+                "codigo": "1INF20",
+                "nombre": "Ciberseguridad Avanzada",
+                "creditos": 3.5,
+                "prerequisitos": "1INF41"
+              },
+              {
+                "codigo": "1INF21",
+                "nombre": "Informática Forense",
+                "creditos": 3.5,
+                "prerequisitos": "INF238"
+              },
+              {
+                "codigo": "1INF68",
+                "nombre": "Centros de Operaciones de Seguridad (SOC)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF41"
+              },
+              {
+                "codigo": "INF275",
+                "nombre": "Seguridad Computacional",
+                "creditos": 3.5,
+                "prerequisitos": "INF238"
+              },
+              {
+                "codigo": "INF309",
+                "nombre": "Desarrollo de Videojuegos",
+                "creditos": 3.5,
+                "prerequisitos": "1INF37"
+              },
+              {
+                "codigo": "INF320",
+                "nombre": "Programación en Dispositivos Móviles",
+                "creditos": 3,
+                "prerequisitos": "1INF30, 1INF50"
+              },
+              {
+                "codigo": "INF356",
+                "nombre": "Tecnologías Web Modernas",
+                "creditos": 3.5,
+                "prerequisitos": "1INF30"
+              },
+              {
+                "codigo": "INF372",
+                "nombre": "Gráficos en Computación (Computer Graphics)",
+                "creditos": 4,
+                "prerequisitos": "1INF30"
+              },
+              {
+                "codigo": "INF357",
+                "nombre": "Inteligencia de Negocios (BI)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF65"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "nombre": "10mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Tesis final, Estrategia TI y 12 créditos de cursos electivos avanzados.",
+        "cursos": [
+          {
+            "id": "inf-1001",
+            "codigo": "1INF46",
+            "nombre": "Proyecto de Fin de Carrera 2",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "prerequisitos": [
+              "1INF42"
+            ],
+            "descripcion": "Culminación, validación experimental o numérica, redacción formal y sustentación pública del proyecto de tesis en ingeniería. Demuestra tu solvencia técnica y criterio profesional para obtener el grado académico de bachiller e iniciar la titulación."
+          },
+          {
+            "id": "inf-1002",
+            "codigo": "1INF47",
+            "nombre": "Proyecto de Implementación de Software",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "descripcion": "Asignatura especializada de 10mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Proyecto de Implementación de Software. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-1003",
+            "codigo": "1INF48",
+            "nombre": "Estrategia y Gestión de Sistemas de Información",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "descripcion": "Asignatura especializada de 10mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Estrategia y Gestión de Sistemas de Información. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "inf-1004",
+            "codigo": "EL-INF10",
+            "nombre": "Cursos Electivos de Especialidad (Mínimo 12.0 Créditos)",
+            "creditos": 12,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1INF02",
+                "nombre": "Aprendizaje de Máquina (Machine Learning)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF03",
+                "nombre": "Análisis de Datos (Data Science)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF52",
+                "nombre": "Deep Learning (Redes Neuronales Profundas)",
+                "creditos": 3,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF59",
+                "nombre": "Procesamiento de Lenguaje Natural (NLP)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF60",
+                "nombre": "Aprendizaje por Refuerzo",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24"
+              },
+              {
+                "codigo": "1INF64",
+                "nombre": "Gestión de Inteligencia Artificial Empresarial",
+                "creditos": 3.5,
+                "prerequisitos": "1INF24, 1INF41"
+              },
+              {
+                "codigo": "1INF20",
+                "nombre": "Ciberseguridad Avanzada",
+                "creditos": 3.5,
+                "prerequisitos": "1INF41"
+              },
+              {
+                "codigo": "1INF21",
+                "nombre": "Informática Forense",
+                "creditos": 3.5,
+                "prerequisitos": "INF238"
+              },
+              {
+                "codigo": "1INF68",
+                "nombre": "Centros de Operaciones de Seguridad (SOC)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF41"
+              },
+              {
+                "codigo": "INF275",
+                "nombre": "Seguridad Computacional",
+                "creditos": 3.5,
+                "prerequisitos": "INF238"
+              },
+              {
+                "codigo": "INF309",
+                "nombre": "Desarrollo de Videojuegos",
+                "creditos": 3.5,
+                "prerequisitos": "1INF37"
+              },
+              {
+                "codigo": "INF320",
+                "nombre": "Programación en Dispositivos Móviles",
+                "creditos": 3,
+                "prerequisitos": "1INF30, 1INF50"
+              },
+              {
+                "codigo": "INF356",
+                "nombre": "Tecnologías Web Modernas",
+                "creditos": 3.5,
+                "prerequisitos": "1INF30"
+              },
+              {
+                "codigo": "INF372",
+                "nombre": "Gráficos en Computación (Computer Graphics)",
+                "creditos": 4,
+                "prerequisitos": "1INF30"
+              },
+              {
+                "codigo": "INF357",
+                "nombre": "Inteligencia de Negocios (BI)",
+                "creditos": 3.5,
+                "prerequisitos": "1INF65"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "electivosEstudiosGenerales": [
+      {
+        "titulo": "Electivos de Humanidades 1 (EH1) - Ciclo 2",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (2.0 cr)",
+        "cursos": [
+          {
+            "codigo": "1HIS02",
+            "nombre": "Historia de la Ciencia",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HIS03",
+            "nombre": "Historia Contemporánea",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM02",
+            "nombre": "Ética y Ciudadanía",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI02",
+            "nombre": "Motivación y Liderazgo",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI03",
+            "nombre": "Desarrollo de Habilidades Personales",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC01",
+            "nombre": "Curso de Tema Libre 1",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC02",
+            "nombre": "Curso de Tema Libre 2",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM03",
+            "nombre": "Electivo de Humanidades 1 (Convalidación)",
+            "creditos": 2
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Humanidades 2 (EH2) - Ciclo 3",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.0 cr)",
+        "cursos": [
+          {
+            "codigo": "1ANT01",
+            "nombre": "Antropología Urbana",
+            "creditos": 3
+          },
+          {
+            "codigo": "1ARQ11",
+            "nombre": "Tecnología Prehispánica",
+            "creditos": 3
+          },
+          {
+            "codigo": "1LIT16",
+            "nombre": "Literatura",
+            "creditos": 3
+          },
+          {
+            "codigo": "1PSI04",
+            "nombre": "Psicología",
+            "creditos": 3
+          },
+          {
+            "codigo": "1SOC01",
+            "nombre": "Sociología",
+            "creditos": 3
+          },
+          {
+            "codigo": "CCO103",
+            "nombre": "Taller de Teatro",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC03",
+            "nombre": "Curso de Tema Libre 3",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC04",
+            "nombre": "Curso de Tema Libre 4",
+            "creditos": 3
+          },
+          {
+            "codigo": "1HUM04",
+            "nombre": "Electivo de Humanidades 2 (Convalidación)",
+            "creditos": 3
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Teología y Religión - Ciclo 4",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.5 cr)",
+        "cursos": [
+          {
+            "codigo": "CDR121",
+            "nombre": "Ciencia, Ética y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1CDR01",
+            "nombre": "Cultura y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "CDR123",
+            "nombre": "Pensamiento Cristiano y Realidad Social",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "TEO111",
+            "nombre": "Teología 1",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO01",
+            "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO02",
+            "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO03",
+            "nombre": "Revelación de Dios en la Historia",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO04",
+            "nombre": "Electivo de Teología y Religión (Convalidación)",
+            "creditos": 3.5
+          }
+        ]
+      }
+    ],
+    "electivosFacultad": [
+      {
+        "titulo": "Área de Inteligencia Artificial y Ciencia de Datos",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1INF02",
+            "nombre": "Aprendizaje de Máquina (Machine Learning)",
+            "creditos": 3.5,
+            "prerequisitos": "1INF24"
+          },
+          {
+            "codigo": "1INF03",
+            "nombre": "Análisis de Datos (Data Science)",
+            "creditos": 3.5,
+            "prerequisitos": "1INF24"
+          },
+          {
+            "codigo": "1INF52",
+            "nombre": "Deep Learning (Redes Neuronales Profundas)",
+            "creditos": 3,
+            "prerequisitos": "1INF24"
+          },
+          {
+            "codigo": "1INF59",
+            "nombre": "Procesamiento de Lenguaje Natural (NLP)",
+            "creditos": 3.5,
+            "prerequisitos": "1INF24"
+          },
+          {
+            "codigo": "1INF60",
+            "nombre": "Aprendizaje por Refuerzo",
+            "creditos": 3.5,
+            "prerequisitos": "1INF24"
+          },
+          {
+            "codigo": "1INF64",
+            "nombre": "Gestión de Inteligencia Artificial Empresarial",
+            "creditos": 3.5,
+            "prerequisitos": "1INF24, 1INF41"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Ciberseguridad e Infraestructura",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "1INF20",
+            "nombre": "Ciberseguridad Avanzada",
+            "creditos": 3.5,
+            "prerequisitos": "1INF41"
+          },
+          {
+            "codigo": "1INF21",
+            "nombre": "Informática Forense",
+            "creditos": 3.5,
+            "prerequisitos": "INF238"
+          },
+          {
+            "codigo": "1INF68",
+            "nombre": "Centros de Operaciones de Seguridad (SOC)",
+            "creditos": 3.5,
+            "prerequisitos": "1INF41"
+          },
+          {
+            "codigo": "INF275",
+            "nombre": "Seguridad Computacional",
+            "creditos": 3.5,
+            "prerequisitos": "INF238"
+          }
+        ]
+      },
+      {
+        "titulo": "Área de Desarrollo e Innovación Tecnológica",
+        "tipo": "facultad",
+        "creditosRequeridos": "Especialidad",
+        "cursos": [
+          {
+            "codigo": "INF309",
+            "nombre": "Desarrollo de Videojuegos",
+            "creditos": 3.5,
+            "prerequisitos": "1INF37"
+          },
+          {
+            "codigo": "INF320",
+            "nombre": "Programación en Dispositivos Móviles",
+            "creditos": 3,
+            "prerequisitos": "1INF30, 1INF50"
+          },
+          {
+            "codigo": "INF356",
+            "nombre": "Tecnologías Web Modernas",
+            "creditos": 3.5,
+            "prerequisitos": "1INF30"
+          },
+          {
+            "codigo": "INF372",
+            "nombre": "Gráficos en Computación (Computer Graphics)",
+            "creditos": 4,
+            "prerequisitos": "1INF30"
+          },
+          {
+            "codigo": "INF357",
+            "nombre": "Inteligencia de Negocios (BI)",
+            "creditos": 3.5,
+            "prerequisitos": "1INF65"
+          }
+        ]
+      }
+    ]
+  },
+  "ingenieria-mecatronica": {
+    "carreraId": "ingenieria-mecatronica",
+    "totalCiclos": 10,
+    "ciclos": [
+      {
+        "numero": 1,
+        "nombre": "1er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Ciencias fundamentales y modelado matemático inicial.",
+        "cursos": [
+          {
+            "id": "mtr-101",
+            "codigo": "1MAT04",
+            "nombre": "Álgebra Matricial y Geometría Analítica",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas estructurales y físicos con rigor analítico. Es la base indispensable para los cursos de física y modelado computacional.",
+            "tipAlumno": "Las matrices de rotación en 3D son la base matemática de cómo se mueven los robots.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-102",
+            "codigo": "1MAT05",
+            "nombre": "Fundamentos de Cálculo",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio en todo fenómeno físico e ingenieril. Te prepara para el razonamiento matemático superior."
+          },
+          {
+            "id": "mtr-103",
+            "codigo": "1FIS01",
+            "nombre": "Fundamentos de Física",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en sistemas mecánicos reales. Es el primer pilar de la física universitaria en ingeniería."
+          },
+          {
+            "id": "mtr-104",
+            "codigo": "1QUI01",
+            "nombre": "Química 1",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
+          },
+          {
+            "id": "mtr-105",
+            "codigo": "1QUI02",
+            "nombre": "Laboratorio de Química 1",
+            "creditos": 0.75,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
+          },
+          {
+            "id": "mtr-106",
+            "codigo": "1LIN15",
+            "nombre": "Comunicación Académica",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "2do Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Física mecánica, cálculo, dibujo técnico y electivo humanidades 1.",
+        "cursos": [
+          {
+            "id": "mtr-201",
+            "codigo": "1MAT06",
+            "nombre": "Cálculo Diferencial",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT05",
+              "1MAT04"
+            ],
+            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación y calcular áreas bajo la curva aplicadas a la física y la ingeniería. Fundamental para el análisis dinámico de sistemas."
+          },
+          {
+            "id": "mtr-202",
+            "codigo": "1FIS02",
+            "nombre": "Física 1",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS01",
+              "1MAT06"
+            ],
+            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para entender sistemas en movimiento periódico y equilibrio de fluidos en reposo y movimiento.",
+            "tipAlumno": "Aprende bien torque y momento angular; te ayudará enormemente al elegir servomotores.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-203",
+            "codigo": "1FIS03",
+            "nombre": "Laboratorio de Física 1",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
+          },
+          {
+            "id": "mtr-204",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional.",
+            "tipAlumno": "Mecatrónica exige modelar chasis y acoples en 3D para corte o impresión 3D.",
+            "autorTip": "Sebastián M. (7mo Ciclo)"
+          },
+          {
+            "id": "mtr-205",
+            "codigo": "1LIN16",
+            "nombre": "Trabajo Académico",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1LIN15"
+            ],
+            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
+          },
+          {
+            "id": "mtr-206",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+          },
+          {
+            "id": "mtr-207",
+            "codigo": "EH1",
+            "nombre": "Electivo de Humanidades 1",
+            "creditos": 2,
+            "tipo": "electivo",
+            "ciclo": 2,
+            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1HIS02",
+                "nombre": "Historia de la Ciencia",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HIS03",
+                "nombre": "Historia Contemporánea",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM02",
+                "nombre": "Ética y Ciudadanía",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI02",
+                "nombre": "Motivación y Liderazgo",
+                "creditos": 2
+              },
+              {
+                "codigo": "1PSI03",
+                "nombre": "Desarrollo de Habilidades Personales",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC01",
+                "nombre": "Curso de Tema Libre 1",
+                "creditos": 2
+              },
+              {
+                "codigo": "1EGC02",
+                "nombre": "Curso de Tema Libre 2",
+                "creditos": 2
+              },
+              {
+                "codigo": "1HUM03",
+                "nombre": "Electivo de Humanidades 1 (Convalidación)",
+                "creditos": 2
+              }
+            ]
+          },
+          {
+            "id": "mtr-208",
+            "codigo": "IDM101",
+            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
+            "creditos": 0,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "3er Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Cálculo multivariable, termodinámica, Diseño Digital (hardware) y electivo humanidades 2.",
+        "cursos": [
+          {
+            "id": "mtr-301",
+            "codigo": "1MAT07",
+            "nombre": "Cálculo Integral",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT06",
+              "1MAT04"
+            ],
+            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular volúmenes de revolución, longitudes de arco y convergencia de aproximaciones numéricas en ingeniería."
+          },
+          {
+            "id": "mtr-302",
+            "codigo": "1MAT08",
+            "nombre": "Cálculo en Varias Variables",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT07"
+            ],
+            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+          },
+          {
+            "id": "mtr-303",
+            "codigo": "1FIS04",
+            "nombre": "Física 2",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS02",
+              "1FIS03",
+              "1MAT07"
+            ],
+            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos."
+          },
+          {
+            "id": "mtr-304",
+            "codigo": "1FIS05",
+            "nombre": "Laboratorio de Física 2",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS04"
+            ],
+            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas electromagnéticos y circuitos en laboratorio."
+          },
+          {
+            "id": "mtr-305",
+            "codigo": "1IEE04",
+            "nombre": "Diseño Digital",
+            "creditos": 5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "35 créditos"
+            ],
+            "descripcion": "Enseña lógica algorítmica, estructuras de control, funciones, arreglos y programación estructurada aplicada a la resolución de problemas técnicos. Te capacita para automatizar cálculos matemáticos, procesar datos y crear simulaciones de ingeniería mediante código.",
+            "tipAlumno": "Tu primer curso 100% de hardware digital. Verás tus circuitos cobrar vida en la placa FPGA.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-306",
+            "codigo": "EH2",
+            "nombre": "Electivo de Humanidades 2",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 3,
+            "descripcion": "Espacio curricular flexible de 3er Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ANT01",
+                "nombre": "Antropología Urbana",
+                "creditos": 3
+              },
+              {
+                "codigo": "1ARQ11",
+                "nombre": "Tecnología Prehispánica",
+                "creditos": 3
+              },
+              {
+                "codigo": "1LIT16",
+                "nombre": "Literatura",
+                "creditos": 3
+              },
+              {
+                "codigo": "1PSI04",
+                "nombre": "Psicología",
+                "creditos": 3
+              },
+              {
+                "codigo": "1SOC01",
+                "nombre": "Sociología",
+                "creditos": 3
+              },
+              {
+                "codigo": "CCO103",
+                "nombre": "Taller de Teatro",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC03",
+                "nombre": "Curso de Tema Libre 3",
+                "creditos": 3
+              },
+              {
+                "codigo": "1EGC04",
+                "nombre": "Curso de Tema Libre 4",
+                "creditos": 3
+              },
+              {
+                "codigo": "1HUM04",
+                "nombre": "Electivo de Humanidades 2 (Convalidación)",
+                "creditos": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "4to Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Ecuaciones diferenciales, electromagnetismo, Programación, Estática y electivo teología.",
+        "cursos": [
+          {
+            "id": "mtr-401",
+            "codigo": "1MAT09",
+            "nombre": "Cálculo Aplicado",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1MAT08"
+            ],
+            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
+          },
+          {
+            "id": "mtr-402",
+            "codigo": "1FIS06",
+            "nombre": "Física 3",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS04",
+              "1FIS05"
+            ],
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
+          },
+          {
+            "id": "mtr-403",
+            "codigo": "1FIS07",
+            "nombre": "Laboratorio de Física 3",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS06"
+            ],
+            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
+          },
+          {
+            "id": "mtr-404",
+            "codigo": "1INF01",
+            "nombre": "Fundamentos de Programación",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS02"
+            ],
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados."
+          },
+          {
+            "id": "mtr-405",
+            "codigo": "ING693",
+            "nombre": "Mecánica para Ingenieros 1 (Estática)",
+            "creditos": 5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS02",
+              "1MAT07"
+            ],
+            "descripcion": "Analiza el ciclo de vida de proyectos de ingeniería, evaluación de impacto ambiental, sostenibilidad ecológica y marco normativo peruano. Fomenta el diseño de soluciones de infraestructura y tecnología con bajo impacto ecológico y compromiso con la sociedad.",
+            "tipAlumno": "Te servirá directamente para calcular las fuerzas en los eslabones de un robot.",
+            "autorTip": "Sebastián M. (7mo Ciclo)"
+          },
+          {
+            "id": "mtr-406",
+            "codigo": "TEO",
+            "nombre": "Electivo de Teología y Religión",
+            "creditos": 3.5,
+            "tipo": "electivo",
+            "ciclo": 4,
+            "descripcion": "Espacio curricular flexible de 4to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "CDR121",
+                "nombre": "Ciencia, Ética y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1CDR01",
+                "nombre": "Cultura y Cristianismo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "CDR123",
+                "nombre": "Pensamiento Cristiano y Realidad Social",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "TEO111",
+                "nombre": "Teología 1",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO01",
+                "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO02",
+                "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO03",
+                "nombre": "Revelación de Dios en la Historia",
+                "creditos": 3.5
+              },
+              {
+                "codigo": "1TEO04",
+                "nombre": "Electivo de Teología y Religión (Convalidación)",
+                "creditos": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "5to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Entrada a Facultad: Circuitos Eléctricos, Sistemas Digitales B, Dinámica y Gráfica Mecatrónica.",
+        "cursos": [
+          {
+            "id": "mtr-501",
+            "codigo": "1IEE27",
+            "nombre": "Circuitos Eléctricos",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1FIS06",
+              "1FIS07"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Circuitos Eléctricos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Dominar fasores e impedancias es indispensable para Electrónica de Potencia.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-502",
+            "codigo": "1IEE28",
+            "nombre": "Sistemas Digitales B",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1IEE04",
+              "1INF01",
+              "ING693"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Sistemas Digitales B. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "El curso donde aprendes a programar el cerebro de tus robots con hardware real.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-503",
+            "codigo": "ING212",
+            "nombre": "Dinámica",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "ING693",
+              "1MAT09"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Dinámica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aquí entiendes la física real detrás de la aceleración de un brazo robótico.",
+            "autorTip": "Sebastián M. (7mo Ciclo)"
+          },
+          {
+            "id": "mtr-504",
+            "codigo": "1MTR50",
+            "nombre": "Representación Gráfica para Ingeniería Mecatrónica",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1ING02"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Representación Gráfica para Ingeniería Mecatrónica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-505",
+            "codigo": "1EST22",
+            "nombre": "Probabilidad y Estadística",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 5,
+            "prerequisitos": [
+              "1MAT09"
+            ],
+            "descripcion": "Asignatura especializada de 5to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Probabilidad y Estadística. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "nombre": "6to Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Robótica e Inteligencia Artificial, Electrónica, POO y Taller de Fabricación.",
+        "cursos": [
+          {
+            "id": "mtr-601",
+            "codigo": "1MTR53",
+            "nombre": "Robótica e Inteligencia Artificial",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "ING212",
+              "1EST22",
+              "1IEE29",
+              "1IEE28"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Robótica e Inteligencia Artificial. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Implementarás la cinemática de un robot real para alcanzar coordenadas con precisión milimétrica.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-602",
+            "codigo": "1IEE29",
+            "nombre": "Fundamentos y Aplicaciones de Electrónica",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1IEE27",
+              "1MTR50"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Fundamentos y Aplicaciones de Electrónica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprende a acondicionar señales de sensores antes de enviarlas al microcontrolador.",
+            "autorTip": "Sebastián M. (7mo Ciclo)"
+          },
+          {
+            "id": "mtr-603",
+            "codigo": "1INF53",
+            "nombre": "Programación Orientada a Objetos",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1IEE28",
+              "1INF01"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Programación Orientada a Objetos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-604",
+            "codigo": "1MEC04",
+            "nombre": "Taller de Procesos de Fabricación",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1MTR50"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Taller de Procesos de Fabricación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-605",
+            "codigo": "1MEC40",
+            "nombre": "Mecánica de Sólidos",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "ING693",
+              "1MAT08"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Mecánica de Sólidos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-606",
+            "codigo": "1MEC41",
+            "nombre": "Termofluidos A",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 6,
+            "prerequisitos": [
+              "1FIS04",
+              "1FIS05",
+              "1MAT08"
+            ],
+            "descripcion": "Asignatura especializada de 6to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Termofluidos A. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "nombre": "7mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Sistemas Dinámicos y Control A, Automatización Industrial Inteligente A y Elementos de Máquinas.",
+        "cursos": [
+          {
+            "id": "mtr-701",
+            "codigo": "1MTR54",
+            "nombre": "Sistemas Dinámicos y Control A",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "ING212",
+              "1MEC41",
+              "1IEE29"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Sistemas Dinámicos y Control A. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Sintonizarás controladores en MATLAB/Simulink para estabilizar sistemas tipo péndulo invertido.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-702",
+            "codigo": "1MTR55",
+            "nombre": "Automatización Industrial Inteligente A",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1MTR54",
+              "1INF53"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Automatización Industrial Inteligente A. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aprenderás exactamente cómo operan las líneas de ensamblaje industrial automatizadas.",
+            "autorTip": "Sebastián M. (7mo Ciclo)"
+          },
+          {
+            "id": "mtr-703",
+            "codigo": "1MEC43",
+            "nombre": "Elementos de Máquinas en Sistemas Mecatrónicos",
+            "creditos": 5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1MEC04",
+              "1MEC40",
+              "1MTR53"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Elementos de Máquinas en Sistemas Mecatrónicos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-704",
+            "codigo": "1MEC42",
+            "nombre": "Ingeniería de Materiales A",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "prerequisitos": [
+              "1MEC40"
+            ],
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería de Materiales A. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-705",
+            "codigo": "1MEC45",
+            "nombre": "Procesos y Tecnologías de Fabricación",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Procesos y Tecnologías de Fabricación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-706",
+            "codigo": "1IEE30",
+            "nombre": "Electrotecnia Industrial",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 7,
+            "descripcion": "Asignatura especializada de 7mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Electrotecnia Industrial. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "nombre": "8vo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Visión por Computadora (Señales e Imágenes), Control B, Automatización B y Metodología de Diseño.",
+        "cursos": [
+          {
+            "id": "mtr-801",
+            "codigo": "IEE239",
+            "nombre": "Procesamiento de Señales e Imágenes Digitales",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1MTR53",
+              "1IEE30"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Procesamiento de Señales e Imágenes Digitales. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Dotarás a tus robots de 'ojos' con cámaras para clasificar piezas o navegar evitando obstáculos.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-802",
+            "codigo": "1MTR56",
+            "nombre": "Automatización Industrial Inteligente B",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1MTR55",
+              "1MEC45",
+              "1IEE30"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Automatización Industrial Inteligente B. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-803",
+            "codigo": "1MTR57",
+            "nombre": "Sistemas Dinámicos y Control B",
+            "creditos": 4,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1MTR54"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Sistemas Dinámicos y Control B. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-804",
+            "codigo": "MTR240",
+            "nombre": "Metodología del Diseño Mecatrónico",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "prerequisitos": [
+              "1MEC43",
+              "1MTR54"
+            ],
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Metodología del Diseño Mecatrónico. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-805",
+            "codigo": "IND231",
+            "nombre": "Ingeniería Económica",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ingeniería Económica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-806",
+            "codigo": "1MEC44",
+            "nombre": "Laboratorio de Diseño Mecánico en Mecatrónica",
+            "creditos": 1,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Diseño Mecánico en Mecatrónica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-807",
+            "codigo": "1MEC46",
+            "nombre": "Laboratorio de Termodinámica y Fluidos",
+            "creditos": 1,
+            "tipo": "facultad",
+            "ciclo": 8,
+            "descripcion": "Asignatura especializada de 8vo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Laboratorio de Termodinámica y Fluidos. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "nombre": "9no Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Proyecto de Diseño Mecatrónico, Biomecatrónica, Tesis 1 y Electivos Tipo A y Especialidad.",
+        "cursos": [
+          {
+            "id": "mtr-901",
+            "codigo": "1MTR52",
+            "nombre": "Proyecto de Diseño Mecatrónico",
+            "creditos": 4.5,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "prerequisitos": [
+              "MTR240",
+              "1MEC44"
+            ],
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Proyecto de Diseño Mecatrónico. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Aquí integras todo lo aprendido: mecánica, electrónica, control y código. El proyecto estrella.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-902",
+            "codigo": "1MTR58",
+            "nombre": "Fundamentos y Aplicaciones de Biomecatrónica",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "prerequisitos": [
+              "1MTR54",
+              "1MEC43"
+            ],
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Fundamentos y Aplicaciones de Biomecatrónica. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
+            "tipAlumno": "Procesarás señales musculares con electrodos para accionar dedos mecánicos.",
+            "autorTip": "Diego C. (9no Ciclo)"
+          },
+          {
+            "id": "mtr-903",
+            "codigo": "1MTR01",
+            "nombre": "Trabajo de Fin de Carrera 1",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Analiza la cinemática y dinámica de partículas y cuerpos rígidos en el plano y espacio 3D, centros de gravedad, momentos de inercia y energía mecánica. Base analítica para modelar matemáticamente el movimiento y las fuerzas en mecanismos y sistemas mecánicos."
+          },
+          {
+            "id": "mtr-904",
+            "codigo": "ING220",
+            "nombre": "Ética Profesional",
+            "creditos": 2,
+            "tipo": "facultad",
+            "ciclo": 9,
+            "descripcion": "Asignatura especializada de 9no Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Ética Profesional. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-905",
+            "codigo": "EL-MTR-A",
+            "nombre": "Electivo Tipo A (Inteligencia Artificial y Computación)",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 9,
+            "descripcion": "Espacio curricular flexible de 9no Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1IND18",
+                "nombre": "Big Data",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1INF02",
+                "nombre": "Aprendizaje de Máquina",
+                "creditos": 3.5,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1INF03",
+                "nombre": "Análisis de Datos",
+                "creditos": 3.5,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1INF62",
+                "nombre": "Inteligencia Artificial Aplicada",
+                "creditos": 3.5,
+                "prerequisitos": "1INF53, 150 créditos"
+              },
+              {
+                "codigo": "1MTR38",
+                "nombre": "Inteligencia Artificial en Sistemas Mecatrónicos",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR66",
+                "nombre": "Arquitectura de Software para Sistemas Mecatrónicos: IoT, AWS y ADD",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "1MTR67",
+                "nombre": "Inteligencia Artificial Industrial",
+                "creditos": 3,
+                "prerequisitos": "150 créditos"
+              }
+            ]
+          },
+          {
+            "id": "mtr-906",
+            "codigo": "EL-MTR-ESP9",
+            "nombre": "Electivo de Especialidad (3 Créditos)",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 9,
+            "descripcion": "Espacio curricular flexible de 9no Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1IBM21",
+                "nombre": "Ingeniería de Rehabilitación Músculo-Esquelética",
+                "creditos": 3,
+                "prerequisitos": "150 créditos"
+              },
+              {
+                "codigo": "1IEE25",
+                "nombre": "Ingeniería Biomédica",
+                "creditos": 3.5,
+                "prerequisitos": "1IEE29, 1MTR54"
+              },
+              {
+                "codigo": "1MTR13",
+                "nombre": "Advanced Motion Control",
+                "creditos": 3.5,
+                "prerequisitos": "1MTR57"
+              },
+              {
+                "codigo": "1MTR21",
+                "nombre": "Robótica Avanzada",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR22",
+                "nombre": "Automatización de Procesos",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR24",
+                "nombre": "Nanotecnología",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR27",
+                "nombre": "Visión por Computadora",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR62",
+                "nombre": "Tecnologías de Manufactura Digital: Impresión 3D",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "1MTR63",
+                "nombre": "Automóviles Autónomos (Autonomous Vehicles)",
+                "creditos": 3,
+                "prerequisitos": "1MTR53, 150 créditos"
+              },
+              {
+                "codigo": "1MTR64",
+                "nombre": "Control de Robots",
+                "creditos": 3,
+                "prerequisitos": "1MTR53, 160 créditos"
+              },
+              {
+                "codigo": "1MTR65",
+                "nombre": "Automatización y Control de Procesos Industriales",
+                "creditos": 3,
+                "prerequisitos": "1MTR56, 160 créditos"
+              },
+              {
+                "codigo": "ICA640",
+                "nombre": "Control de Robots Móviles",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "nombre": "10mo Ciclo",
+        "etapa": "Facultad de Ciencias e Ingeniería",
+        "descripcion": "Sustentación de tesis, Gestión Empresarial, Electivo Tipo B y 9 créditos de especialidad.",
+        "cursos": [
+          {
+            "id": "mtr-1001",
+            "codigo": "1MTR02",
+            "nombre": "Trabajo de Fin de Carrera 2",
+            "creditos": 3,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "prerequisitos": [
+              "1MTR52",
+              "1MTR01"
+            ],
+            "descripcion": "Estudia circuitos con amplificadores operacionales, semiconductores (diodos, transistores BJT y MOSFET), filtros analógicos y fuentes de alimentación reguladas. Enseña a diseñar circuitos electrónicos para acondicionar señales de sensores y alimentar etapas de potencia."
+          },
+          {
+            "id": "mtr-1002",
+            "codigo": "1IND44",
+            "nombre": "Gestión Empresarial",
+            "creditos": 3.5,
+            "tipo": "facultad",
+            "ciclo": 10,
+            "descripcion": "Asignatura especializada de 10mo Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Gestión Empresarial. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna."
+          },
+          {
+            "id": "mtr-1003",
+            "codigo": "EL-MTR-B",
+            "nombre": "Electivo Tipo B (Sostenibilidad y Medio Ambiente)",
+            "creditos": 3,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1ING17",
+                "nombre": "Introducción a la Ingeniería Sostenible",
+                "creditos": 3,
+                "prerequisitos": "120 créditos"
+              },
+              {
+                "codigo": "IND293",
+                "nombre": "Seguridad Integral y Gestión Ambiental",
+                "creditos": 4,
+                "prerequisitos": "120 créditos"
+              },
+              {
+                "codigo": "IND318",
+                "nombre": "Gestión Ambiental",
+                "creditos": 3.5,
+                "prerequisitos": "120 créditos"
+              },
+              {
+                "codigo": "ING310",
+                "nombre": "Sustainable Energy",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "ING320",
+                "nombre": "Análisis Ambiental del Ciclo de Vida de los Productos",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              }
+            ]
+          },
+          {
+            "id": "mtr-1004",
+            "codigo": "EL-MTR-ESP10",
+            "nombre": "Electivos de Especialidad (Mínimo 9.0 Créditos)",
+            "creditos": 9,
+            "tipo": "electivo",
+            "ciclo": 10,
+            "descripcion": "Espacio curricular flexible de 10mo Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "opcionesElectivas": [
+              {
+                "codigo": "1IBM21",
+                "nombre": "Ingeniería de Rehabilitación Músculo-Esquelética",
+                "creditos": 3,
+                "prerequisitos": "150 créditos"
+              },
+              {
+                "codigo": "1IEE25",
+                "nombre": "Ingeniería Biomédica",
+                "creditos": 3.5,
+                "prerequisitos": "1IEE29, 1MTR54"
+              },
+              {
+                "codigo": "1MTR13",
+                "nombre": "Advanced Motion Control",
+                "creditos": 3.5,
+                "prerequisitos": "1MTR57"
+              },
+              {
+                "codigo": "1MTR21",
+                "nombre": "Robótica Avanzada",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR22",
+                "nombre": "Automatización de Procesos",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR24",
+                "nombre": "Nanotecnología",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR27",
+                "nombre": "Visión por Computadora",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              },
+              {
+                "codigo": "1MTR62",
+                "nombre": "Tecnologías de Manufactura Digital: Impresión 3D",
+                "creditos": 3,
+                "prerequisitos": "140 créditos"
+              },
+              {
+                "codigo": "1MTR63",
+                "nombre": "Automóviles Autónomos (Autonomous Vehicles)",
+                "creditos": 3,
+                "prerequisitos": "1MTR53, 150 créditos"
+              },
+              {
+                "codigo": "1MTR64",
+                "nombre": "Control de Robots",
+                "creditos": 3,
+                "prerequisitos": "1MTR53, 160 créditos"
+              },
+              {
+                "codigo": "1MTR65",
+                "nombre": "Automatización y Control de Procesos Industriales",
+                "creditos": 3,
+                "prerequisitos": "1MTR56, 160 créditos"
+              },
+              {
+                "codigo": "ICA640",
+                "nombre": "Control de Robots Móviles",
+                "creditos": 3,
+                "prerequisitos": "160 créditos"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "electivosEstudiosGenerales": [
+      {
+        "titulo": "Electivos de Humanidades 1 (EH1) - Ciclo 2",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (2.0 cr)",
+        "descripcion": "Elige un curso para desarrollar perspectiva histórica, ética o habilidades de liderazgo.",
+        "cursos": [
+          {
+            "codigo": "1HIS02",
+            "nombre": "Historia de la Ciencia",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HIS03",
+            "nombre": "Historia Contemporánea",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM02",
+            "nombre": "Ética y Ciudadanía",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI02",
+            "nombre": "Motivación y Liderazgo",
+            "creditos": 2
+          },
+          {
+            "codigo": "1PSI03",
+            "nombre": "Desarrollo de Habilidades Personales",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC01",
+            "nombre": "Curso de Tema Libre 1",
+            "creditos": 2
+          },
+          {
+            "codigo": "1EGC02",
+            "nombre": "Curso de Tema Libre 2",
+            "creditos": 2
+          },
+          {
+            "codigo": "1HUM03",
+            "nombre": "Electivo de Humanidades 1 (Convalidación)",
+            "creditos": 2
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Humanidades 2 (EH2) - Ciclo 3",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.0 cr)",
+        "descripcion": "Cursos interdisciplinarios de ciencias sociales, artes y humanidades.",
+        "cursos": [
+          {
+            "codigo": "1ANT01",
+            "nombre": "Antropología Urbana",
+            "creditos": 3
+          },
+          {
+            "codigo": "1ARQ11",
+            "nombre": "Tecnología Prehispánica",
+            "creditos": 3
+          },
+          {
+            "codigo": "1LIT16",
+            "nombre": "Literatura",
+            "creditos": 3
+          },
+          {
+            "codigo": "1PSI04",
+            "nombre": "Psicología",
+            "creditos": 3
+          },
+          {
+            "codigo": "1SOC01",
+            "nombre": "Sociología",
+            "creditos": 3
+          },
+          {
+            "codigo": "CCO103",
+            "nombre": "Taller de Teatro",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC03",
+            "nombre": "Curso de Tema Libre 3",
+            "creditos": 3
+          },
+          {
+            "codigo": "1EGC04",
+            "nombre": "Curso de Tema Libre 4",
+            "creditos": 3
+          },
+          {
+            "codigo": "1HUM04",
+            "nombre": "Electivo de Humanidades 2 (Convalidación)",
+            "creditos": 3
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Teología y Religión - Ciclo 4",
+        "tipo": "estudios_generales",
+        "creditosRequeridos": "Se debe aprobar uno del grupo (3.5 cr)",
+        "descripcion": "Cursos de formación humanista, ética cristiana y diálogo contemporáneo.",
+        "cursos": [
+          {
+            "codigo": "CDR121",
+            "nombre": "Ciencia, Ética y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1CDR01",
+            "nombre": "Cultura y Cristianismo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "CDR123",
+            "nombre": "Pensamiento Cristiano y Realidad Social",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "TEO111",
+            "nombre": "Teología 1",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO01",
+            "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO02",
+            "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO03",
+            "nombre": "Revelación de Dios en la Historia",
+            "creditos": 3.5
+          },
+          {
+            "codigo": "1TEO04",
+            "nombre": "Electivo de Teología y Religión (Convalidación)",
+            "creditos": 3.5
+          }
+        ]
+      }
+    ],
+    "electivosFacultad": [
+      {
+        "titulo": "Electivos Tipo A (Inteligencia Artificial y Computación)",
+        "tipo": "facultad",
+        "creditosRequeridos": "Mínimo 3.0 créditos",
+        "cursos": [
+          {
+            "codigo": "1IND18",
+            "nombre": "Big Data",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1INF02",
+            "nombre": "Aprendizaje de Máquina",
+            "creditos": 3.5,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1INF03",
+            "nombre": "Análisis de Datos",
+            "creditos": 3.5,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1INF62",
+            "nombre": "Inteligencia Artificial Aplicada",
+            "creditos": 3.5,
+            "prerequisitos": "1INF53, 150 créditos"
+          },
+          {
+            "codigo": "1MTR38",
+            "nombre": "Inteligencia Artificial en Sistemas Mecatrónicos",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1MTR66",
+            "nombre": "Arquitectura de Software para Sistemas Mecatrónicos: IoT, AWS y ADD",
+            "creditos": 3,
+            "prerequisitos": "140 créditos"
+          },
+          {
+            "codigo": "1MTR67",
+            "nombre": "Inteligencia Artificial Industrial",
+            "creditos": 3,
+            "prerequisitos": "150 créditos"
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos Tipo B (Sostenibilidad y Medio Ambiente)",
+        "tipo": "facultad",
+        "creditosRequeridos": "Mínimo 3.0 créditos",
+        "cursos": [
+          {
+            "codigo": "1ING17",
+            "nombre": "Introducción a la Ingeniería Sostenible",
+            "creditos": 3,
+            "prerequisitos": "120 créditos"
+          },
+          {
+            "codigo": "IND293",
+            "nombre": "Seguridad Integral y Gestión Ambiental",
+            "creditos": 4,
+            "prerequisitos": "120 créditos"
+          },
+          {
+            "codigo": "IND318",
+            "nombre": "Gestión Ambiental",
+            "creditos": 3.5,
+            "prerequisitos": "120 créditos"
+          },
+          {
+            "codigo": "ING310",
+            "nombre": "Sustainable Energy",
+            "creditos": 3,
+            "prerequisitos": "140 créditos"
+          },
+          {
+            "codigo": "ING320",
+            "nombre": "Análisis Ambiental del Ciclo de Vida de los Productos",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          }
+        ]
+      },
+      {
+        "titulo": "Electivos de Especialidad (Robótica Avanzada, Vehículos Autónomos y Biomecánica)",
+        "tipo": "facultad",
+        "creditosRequeridos": "Mínimo 9.0 créditos",
+        "cursos": [
+          {
+            "codigo": "1IBM21",
+            "nombre": "Ingeniería de Rehabilitación Músculo-Esquelética",
+            "creditos": 3,
+            "prerequisitos": "150 créditos"
+          },
+          {
+            "codigo": "1IEE25",
+            "nombre": "Ingeniería Biomédica",
+            "creditos": 3.5,
+            "prerequisitos": "1IEE29, 1MTR54"
+          },
+          {
+            "codigo": "1MTR13",
+            "nombre": "Advanced Motion Control",
+            "creditos": 3.5,
+            "prerequisitos": "1MTR57"
+          },
+          {
+            "codigo": "1MTR21",
+            "nombre": "Robótica Avanzada",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1MTR22",
+            "nombre": "Automatización de Procesos",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1MTR24",
+            "nombre": "Nanotecnología",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1MTR27",
+            "nombre": "Visión por Computadora",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          },
+          {
+            "codigo": "1MTR62",
+            "nombre": "Tecnologías de Manufactura Digital: Impresión 3D",
+            "creditos": 3,
+            "prerequisitos": "140 créditos"
+          },
+          {
+            "codigo": "1MTR63",
+            "nombre": "Automóviles Autónomos (Autonomous Vehicles)",
+            "creditos": 3,
+            "prerequisitos": "1MTR53, 150 créditos"
+          },
+          {
+            "codigo": "1MTR64",
+            "nombre": "Control de Robots",
+            "creditos": 3,
+            "prerequisitos": "1MTR53, 160 créditos"
+          },
+          {
+            "codigo": "1MTR65",
+            "nombre": "Automatización y Control de Procesos Industriales",
+            "creditos": 3,
+            "prerequisitos": "1MTR56, 160 créditos"
+          },
+          {
+            "codigo": "ICA640",
+            "nombre": "Control de Robots Móviles",
+            "creditos": 3,
+            "prerequisitos": "160 créditos"
+          }
+        ]
+      }
+    ]
+  }
+}

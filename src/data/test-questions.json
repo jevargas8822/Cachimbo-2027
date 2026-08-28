@@ -1,0 +1,573 @@
+[
+  {
+    "id": 1,
+    "pregunta": "Es sábado por la mañana y tienes tiempo libre para crear o investigar algo. ¿Qué actividad te entusiasma más?",
+    "descripcion": "Elige la opción que mejor refleje tu curiosidad natural.",
+    "categoria": "Intereses y Creatividad",
+    "opciones": [
+      {
+        "id": "1a",
+        "texto": "Programar una app, un videojuego o experimentar con herramientas de Inteligencia Artificial.",
+        "subtexto": "Te apasiona el mundo del software, los datos y la lógica digital.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4,
+          "ingenieria-electronica": 2,
+          "ingenieria-mecatronica": 1
+        }
+      },
+      {
+        "id": "1b",
+        "texto": "Armar un robot con sensores, motores, placas electrónicas y piezas 3D.",
+        "subtexto": "Disfrutas unir mecanismos físicos con circuitos y código que los mueva.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 3,
+          "ingenieria-mecanica": 2,
+          "ingenieria-biomedica": 2
+        }
+      },
+      {
+        "id": "1c",
+        "texto": "Diseñar una maqueta arquitectónica, modelar un puente o simular cómo resiste grandes cargas.",
+        "subtexto": "Te fascinan los espacios habitables, las estructuras físicas y las megaobras.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 3,
+          "ingenieria-minas": 1
+        }
+      },
+      {
+        "id": "1d",
+        "texto": "Diseñar una identidad visual, ilustrar digitalmente, crear prototipos de productos o moda.",
+        "subtexto": "Tu mente piensa en colores, estética, experiencia de usuario y creatividad visual.",
+        "carreraPuntos": {
+          "diseno-grafico": 4,
+          "diseno-industrial": 4,
+          "arquitectura": 2,
+          "publicidad": 2
+        }
+      },
+      {
+        "id": "1e",
+        "texto": "Leer sobre debates políticos, noticias internacionales, leyes o redactar ensayos sobre la sociedad.",
+        "subtexto": "Te motiva el análisis crítico, la justicia, los derechos y las relaciones humanas.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "economia": 3,
+          "gestion": 2,
+          "psicologia": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué gran desafío de la sociedad moderna te gustaría liderar y resolver profesionalmente?",
+    "descripcion": "Piensa en el legado o impacto que deseas dejar en el mundo.",
+    "categoria": "Impacto y Propósito",
+    "opciones": [
+      {
+        "id": "2a",
+        "texto": "Construir ciudades seguras y resilientes con hospitales, vías y represas que resistan terremotos severos.",
+        "subtexto": "Proteger la vida de miles de familias mediante ingeniería estructural e infraestructura.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 2,
+          "ingenieria-ambiental": 2
+        }
+      },
+      {
+        "id": "2b",
+        "texto": "Desarrollar plataformas digitales globales seguras contra ciberataques y democratizar la IA.",
+        "subtexto": "Transformar la educación, la salud y la economía a través de la tecnología cloud y algoritmos.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4,
+          "ingenieria-industrial": 2
+        }
+      },
+      {
+        "id": "2c",
+        "texto": "Crear prótesis biónicas, exoesqueletos médicos y robots que automaticen trabajos de alto riesgo.",
+        "subtexto": "Devolver movilidad a personas con discapacidad y modernizar la industria.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-biomedica": 4,
+          "ingenieria-electronica": 2
+        }
+      },
+      {
+        "id": "2d",
+        "texto": "Defender los derechos fundamentales, luchar contra la corrupción y asesorar grandes acuerdos corporativos.",
+        "subtexto": "Garantizar la justicia, la seguridad jurídica y el estado de derecho.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "gestion": 2
+        }
+      },
+      {
+        "id": "2e",
+        "texto": "Promover la salud mental comunitaria, el bienestar emocional y comprender la mente humana.",
+        "subtexto": "Ayudar a personas a superar traumas y optimizar el clima humano en las organizaciones.",
+        "carreraPuntos": {
+          "psicologia": 4,
+          "gestion": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cómo te imaginas tu entorno ideal de trabajo en el día a día?",
+    "descripcion": "El ambiente donde te sentirías más productivo, creativo y feliz.",
+    "categoria": "Estilo de Trabajo",
+    "opciones": [
+      {
+        "id": "3a",
+        "texto": "Un trabajo dinámico: combinando diseño técnico en gabinete con visitas a obras de gran escala y terreno.",
+        "subtexto": "Te gusta ver la evolución física tangible de los proyectos en la realidad.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "ingenieria-minas": 3,
+          "arquitectura": 2,
+          "ingenieria-ambiental": 2
+        }
+      },
+      {
+        "id": "3b",
+        "texto": "Una oficina tech o trabajo remoto con múltiples pantallas, terminales de código y servidores cloud.",
+        "subtexto": "Valoras la agilidad digital, el código limpio y la colaboración con equipos de todo el mundo.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4,
+          "economia": 2
+        }
+      },
+      {
+        "id": "3c",
+        "texto": "Un taller o laboratorio especializado con impresoras 3D, osciloscopios, robots, microchips y bancos de prueba.",
+        "subtexto": "Te encanta experimentar, calibrar circuitos y ver tus máquinas cobrar movimiento.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 3,
+          "ingenieria-mecanica": 3,
+          "ingenieria-biomedica": 3
+        }
+      },
+      {
+        "id": "3d",
+        "texto": "Un estudio creativo, agencia de publicidad o set de grabación lleno de ideas visuales y narrativas.",
+        "subtexto": "Un ambiente vibrante donde la imaginación y la estética son la moneda principal.",
+        "carreraPuntos": {
+          "diseno-grafico": 4,
+          "diseno-industrial": 3,
+          "comunicacion-audiovisual": 4,
+          "publicidad": 4
+        }
+      },
+      {
+        "id": "3e",
+        "texto": "Salas de reuniones directivas, juzgados, consultorías estratégicas o asesorando empresas líderes.",
+        "subtexto": "Te desenvuelves liderando personas, negociando acuerdos y tomando decisiones de alto nivel.",
+        "carreraPuntos": {
+          "gestion": 4,
+          "derecho": 4,
+          "economia": 3,
+          "ingenieria-industrial": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué tipo de asignaturas o temas te despiertan mayor curiosidad genuina de estudiar?",
+    "descripcion": "Los temas que leerías incluso por gusto propio.",
+    "categoria": "Afinidad Académica",
+    "opciones": [
+      {
+        "id": "4a",
+        "texto": "Ingeniería Sismorresistente, Mecánica de Suelos, Concreto Armado y Obras Hidráulicas.",
+        "subtexto": "El comportamiento de los materiales resistentes y las fuerzas de la naturaleza.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 1
+        }
+      },
+      {
+        "id": "4b",
+        "texto": "Algoritmia y Estructura de Datos, Inteligencia Artificial, Ciberseguridad y Cloud Computing.",
+        "subtexto": "La arquitectura lógica de sistemas y la computación avanzada.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "4c",
+        "texto": "Robótica Autónoma, Control Automático con PLCs, Electrónica Digital y Visión por Computadora.",
+        "subtexto": "La integración entre electrónica, física mecánica y software inteligente.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 3
+        }
+      },
+      {
+        "id": "4d",
+        "texto": "Diseño UI/UX, Teoría del Color, Modelado Tridimensional y Ergonomía de Productos.",
+        "subtexto": "Cómo crear experiencias y objetos intuitivos para las personas.",
+        "carreraPuntos": {
+          "diseno-grafico": 3,
+          "diseno-industrial": 4,
+          "arquitectura": 3
+        }
+      },
+      {
+        "id": "4e",
+        "texto": "Econometría, Finanzas Corporativas, Cadena de Suministro y Estrategia Empresarial.",
+        "subtexto": "El análisis cuantitativo de mercados, finanzas y optimización de recursos.",
+        "carreraPuntos": {
+          "economia": 4,
+          "gestion": 4,
+          "ingenieria-industrial": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pregunta": "Si tuvieras que organizar un mega evento universitario, ¿en qué área te sentirías más cómodo?",
+    "descripcion": "Tu rol espontáneo cuando trabajas en equipo.",
+    "categoria": "Rol en Equipos",
+    "opciones": [
+      {
+        "id": "5a",
+        "texto": "Programar la web del evento, el sistema de registro digital y asegurar que los servidores no colapsen.",
+        "subtexto": "El respaldo tecnológico y digital del proyecto.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "5b",
+        "texto": "Instalar y calibrar los sistemas automatizados de luces, audio, pantallas LED y drones de cobertura.",
+        "subtexto": "El control técnico de hardware y efectos electromecánicos.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 3,
+          "comunicacion-audiovisual": 2
+        }
+      },
+      {
+        "id": "5c",
+        "texto": "Diseñar la distribución espacial del recinto, las estructuras del escenario y los accesos seguros.",
+        "subtexto": "La planificación física, seguridad y capacidad de aforo.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 3
+        }
+      },
+      {
+        "id": "5d",
+        "texto": "Diseñar la marca gráfica, las piezas publicitarias en redes y la campaña creativa de difusión.",
+        "subtexto": "La identidad visual, marketing y convocatoria masiva.",
+        "carreraPuntos": {
+          "publicidad": 4,
+          "diseno-grafico": 4,
+          "comunicacion-audiovisual": 2
+        }
+      },
+      {
+        "id": "5e",
+        "texto": "Negociar con auspiciadores, administrar el presupuesto, coordinar la logística y contratos legales.",
+        "subtexto": "La dirección general, finanzas y gestión de recursos.",
+        "carreraPuntos": {
+          "gestion": 4,
+          "ingenieria-industrial": 3,
+          "derecho": 3,
+          "economia": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué tipo de proyecto te generaría mayor orgullo mostrar a tu familia y amigos?",
+    "descripcion": "El resultado que te hace sentir 'valió la pena cada hora de esfuerzo'.",
+    "categoria": "Logro Profesional",
+    "opciones": [
+      {
+        "id": "6a",
+        "texto": "Un puente, un edificio sismorresistente o un hospital que construiste y que protegerá a miles de ciudadanos.",
+        "subtexto": "Una obra de infraestructura tangible y trascendente.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 2
+        }
+      },
+      {
+        "id": "6b",
+        "texto": "Una aplicación o sistema de software que utilizan miles de personas a diario con cero caídas.",
+        "subtexto": "Impacto masivo a través de tecnología digital escalable.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "6c",
+        "texto": "Un robot autónomo o dispositivo médico biónico que diseñaste y programaste desde cero.",
+        "subtexto": "Creación de tecnología inteligente aplicada al mundo físico.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-biomedica": 4
+        }
+      },
+      {
+        "id": "6d",
+        "texto": "Un producto innovador en el mercado, un cortometraje premiado o una marca con diseño memorable.",
+        "subtexto": "Creación artística, funcional y de alto valor estético.",
+        "carreraPuntos": {
+          "diseno-industrial": 4,
+          "diseno-grafico": 3,
+          "comunicacion-audiovisual": 4,
+          "publicidad": 3,
+          "gastronomia": 3
+        }
+      },
+      {
+        "id": "6e",
+        "texto": "Haber ganado un caso judicial emblemático, liderar una empresa exitosa o publicar una política pública clave.",
+        "subtexto": "Liderazgo en justicia, economía y gestión del desarrollo.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "gestion": 4,
+          "economia": 4,
+          "psicologia": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pregunta": "Frente a un problema complejo con datos e información abundante, ¿cuál es tu instinto inicial?",
+    "descripcion": "Tu forma preferida de analizar y procesar retos.",
+    "categoria": "Enfoque Analítico",
+    "opciones": [
+      {
+        "id": "7a",
+        "texto": "Modelar las fuerzas físicas, calcular esfuerzos en software de ingeniería y verificar coeficientes de seguridad.",
+        "subtexto": "Cálculo matemático riguroso aplicado a la física.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "ingenieria-mecanica": 3
+        }
+      },
+      {
+        "id": "7b",
+        "texto": "Escribir un script o programa para limpiar datos, entrenar un modelo y encontrar patrones automáticamente.",
+        "subtexto": "Automatización algorítmica y procesamiento computacional.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4,
+          "economia": 2
+        }
+      },
+      {
+        "id": "7c",
+        "texto": "Medir variables con sensores, calibrar la respuesta temporal del sistema y ajustar el circuito de control.",
+        "subtexto": "Procesamiento de señales y comportamiento en tiempo real.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 4
+        }
+      },
+      {
+        "id": "7d",
+        "texto": "Bocetar mapas conceptuales, diagramas visuales y prototipar maquetas para visualizar la solución.",
+        "subtexto": "Pensamiento visual, espacial y design thinking.",
+        "carreraPuntos": {
+          "arquitectura": 4,
+          "diseno-industrial": 4,
+          "diseno-grafico": 3
+        }
+      },
+      {
+        "id": "7e",
+        "texto": "Analizar la normativa legal, las finanzas y el comportamiento de las personas involucradas.",
+        "subtexto": "Análisis cualitativo y estratégico multidisciplinario.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "gestion": 3,
+          "psicologia": 3,
+          "economia": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "pregunta": "Si pudieras tener una conversación de una hora con un referente histórico o mundial, ¿a quién elegirías?",
+    "descripcion": "Las personalidades que más te inspiran.",
+    "categoria": "Inspiración",
+    "opciones": [
+      {
+        "id": "8a",
+        "texto": "Gustave Eiffel o los grandes ingenieros constructores de las maravillas del mundo.",
+        "subtexto": "Maestros de la infraestructura y el diseño estructural.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 2
+        }
+      },
+      {
+        "id": "8b",
+        "texto": "Alan Turing, Ada Lovelace o los pioneros de la computación y la Inteligencia Artificial.",
+        "subtexto": "Mentes que crearon las bases del mundo digital.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "8c",
+        "texto": "Nikola Tesla o los creadores de los robots autónomos de la NASA y Boston Dynamics.",
+        "subtexto": "Visionarios del electromagnetismo, la automatización y la robótica.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-electronica": 3
+        }
+      },
+      {
+        "id": "8d",
+        "texto": "Zaha Hadid, Steve Jobs o grandes diseñadores y directores de cine.",
+        "subtexto": "Genios que combinaron estética, tecnología y arte.",
+        "carreraPuntos": {
+          "arquitectura": 4,
+          "diseno-industrial": 4,
+          "comunicacion-audiovisual": 3,
+          "diseno-grafico": 3
+        }
+      },
+      {
+        "id": "8e",
+        "texto": "Grandes juristas internacionales, premios Nobel de Economía o psicólogos pioneros.",
+        "subtexto": "Líderes que transformaron las leyes, la economía y la comprensión de la mente.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "economia": 4,
+          "psicologia": 4,
+          "gestion": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué cualidad personal consideras que es tu mayor fortaleza?",
+    "descripcion": "El rasgo en el que tus amigos y profesores siempre confían de ti.",
+    "categoria": "Fortalezas Personales",
+    "opciones": [
+      {
+        "id": "9a",
+        "texto": "Pensamiento lógico, estructurado y facilidad para descomponer problemas difíciles en código.",
+        "subtexto": "Capacidad de abstracción y análisis algorítmico.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "9b",
+        "texto": "Ingenio manual, curiosidad por desarmar y armar cosas y combinar cables, piezas y motores.",
+        "subtexto": "Habilidad práctica interdisciplinaria en hardware y física.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-mecanica": 3,
+          "ingenieria-electronica": 3
+        }
+      },
+      {
+        "id": "9c",
+        "texto": "Visión espacial, minuciosidad con los números y sentido de la responsabilidad en grandes obras.",
+        "subtexto": "Atención al detalle y seguridad estructural.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 2
+        }
+      },
+      {
+        "id": "9d",
+        "texto": "Creatividad desbordante, buen gusto estético y habilidad para comunicar emociones visualmente.",
+        "subtexto": "Sensibilidad artística, narrativa y de diseño.",
+        "carreraPuntos": {
+          "diseno-grafico": 4,
+          "diseno-industrial": 4,
+          "comunicacion-audiovisual": 4,
+          "publicidad": 3,
+          "gastronomia": 3
+        }
+      },
+      {
+        "id": "9e",
+        "texto": "Capacidad de persuasión, empatía para entender a los demás y liderazgo en la toma de decisiones.",
+        "subtexto": "Habilidades humanas, negociación y dirección estratégica.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "gestion": 4,
+          "psicologia": 4,
+          "economia": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Cuál de estos roles te atrae más como tu futuro profesional dentro de 5 a 10 años?",
+    "descripcion": "Imagina tu cargo soñado en una gran organización o emprendimiento.",
+    "categoria": "Visión de Futuro",
+    "opciones": [
+      {
+        "id": "10a",
+        "texto": "Ingeniero Residente o Calculista Estructural de grandes proyectos viales, puentes y rascacielos.",
+        "subtexto": "Líder de obras de infraestructura nacional e internacional.",
+        "carreraPuntos": {
+          "ingenieria-civil": 4,
+          "arquitectura": 1
+        }
+      },
+      {
+        "id": "10b",
+        "texto": "Líder Técnico de Software (Tech Lead), Arquitecto Cloud o Ingeniero de Machine Learning.",
+        "subtexto": "Creador de tecnologías digitales de alto impacto global.",
+        "carreraPuntos": {
+          "ingenieria-informatica": 4
+        }
+      },
+      {
+        "id": "10c",
+        "texto": "Especialista en Robótica Autónoma, Automatización Industrial 4.0 o Dispositivos Biomecatrónicos.",
+        "subtexto": "Pionero en sistemas ciberfísicos y maquinaria inteligente.",
+        "carreraPuntos": {
+          "ingenieria-mecatronica": 4,
+          "ingenieria-biomedica": 3
+        }
+      },
+      {
+        "id": "10d",
+        "texto": "Director Creativo de Marca, Diseñador de Productos Innovadores o Director Audiovisual.",
+        "subtexto": "Creador de experiencias visuales, productos y contenido cinematográfico.",
+        "carreraPuntos": {
+          "diseno-grafico": 4,
+          "diseno-industrial": 4,
+          "comunicacion-audiovisual": 4,
+          "publicidad": 3,
+          "gastronomia": 3
+        }
+      },
+      {
+        "id": "10e",
+        "texto": "Socio en un prestigioso estudio legal, Gerente General (CEO), Economista de Estado o Psicólogo Líder.",
+        "subtexto": "Líder en la toma de decisiones estratégicas, normativas y humanas.",
+        "carreraPuntos": {
+          "derecho": 4,
+          "gestion": 4,
+          "economia": 4,
+          "psicologia": 4
+        }
+      }
+    ]
+  }
+]
