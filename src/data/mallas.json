@@ -22,6 +22,15 @@
           },
           {
             "id": "civ-102",
+            "codigo": "1LIN15",
+            "nombre": "Comunicación Académica",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+          },
+          {
+            "id": "civ-103",
             "codigo": "1MAT05",
             "nombre": "Fundamentos de Cálculo",
             "creditos": 4.5,
@@ -32,7 +41,7 @@
             "autorTip": "Camila T. (5to Ciclo)"
           },
           {
-            "id": "civ-103",
+            "id": "civ-104",
             "codigo": "1FIS01",
             "nombre": "Fundamentos de Física",
             "creditos": 3.5,
@@ -43,7 +52,7 @@
             "autorTip": "Mateo R. (8vo Ciclo)"
           },
           {
-            "id": "civ-104",
+            "id": "civ-105",
             "codigo": "1QUI01",
             "nombre": "Química 1",
             "creditos": 3.5,
@@ -52,22 +61,16 @@
             "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
           },
           {
-            "id": "civ-105",
+            "id": "civ-106",
             "codigo": "1QUI02",
             "nombre": "Laboratorio de Química 1",
             "creditos": 0.75,
             "tipo": "estudios_generales",
             "ciclo": 1,
+            "prerequisitos": [
+              "1QUI01"
+            ],
             "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
-          },
-          {
-            "id": "civ-106",
-            "codigo": "1LIN15",
-            "nombre": "Comunicación Académica",
-            "creditos": 3,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
           }
         ]
       },
@@ -92,6 +95,29 @@
           },
           {
             "id": "civ-202",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+          },
+          {
+            "id": "civ-203",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional.",
+            "tipAlumno": "Los planos son el lenguaje diario del ingeniero civil. Domina AutoCAD.",
+            "autorTip": "Gonzalo V. (7mo Ciclo)"
+          },
+          {
+            "id": "civ-204",
             "codigo": "1FIS02",
             "nombre": "Física 1",
             "creditos": 4.5,
@@ -106,7 +132,7 @@
             "autorTip": "Renzo D. (8vo Ciclo)"
           },
           {
-            "id": "civ-203",
+            "id": "civ-205",
             "codigo": "1FIS03",
             "nombre": "Laboratorio de Física 1",
             "creditos": 0.5,
@@ -118,21 +144,7 @@
             "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
           },
           {
-            "id": "civ-204",
-            "codigo": "1ING02",
-            "nombre": "Dibujo en Ingeniería",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "prerequisitos": [
-              "1MAT04"
-            ],
-            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional.",
-            "tipAlumno": "Los planos son el lenguaje diario del ingeniero civil. Domina AutoCAD.",
-            "autorTip": "Gonzalo V. (7mo Ciclo)"
-          },
-          {
-            "id": "civ-205",
+            "id": "civ-206",
             "codigo": "1LIN16",
             "nombre": "Trabajo Académico",
             "creditos": 3,
@@ -142,15 +154,6 @@
               "1LIN15"
             ],
             "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
-          },
-          {
-            "id": "civ-206",
-            "codigo": "1FIL01",
-            "nombre": "Ciencia y Filosofía",
-            "creditos": 3,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
           },
           {
             "id": "civ-207",
@@ -202,15 +205,6 @@
                 "creditos": 2
               }
             ]
-          },
-          {
-            "id": "civ-208",
-            "codigo": "IDM101",
-            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
-            "creditos": 0,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
           }
         ]
       },
@@ -243,7 +237,7 @@
             "prerequisitos": [
               "1MAT07"
             ],
-            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+            "descripcion": "Estudia funciones de varias variables, derivadas parciales, planos tangentes, optimización con y sin restricciones, integrales dobles y triples aplicadas a centros de masa y momentos de inercia en cuerpos tridimensionales."
           },
           {
             "id": "civ-303",
@@ -258,7 +252,7 @@
               "1MAT07"
             ],
             "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos.",
-            "tipAlumno": "La hidrostática y Bernoulli son el punto de partida para tus cursos de hidráulica.",
+            "tipAlumno": "Comprende bien los conceptos de campo y potencial; son la base para instalaciones eléctricas.",
             "autorTip": "Renzo D. (8vo Ciclo)"
           },
           {
@@ -275,6 +269,20 @@
           },
           {
             "id": "civ-305",
+            "codigo": "1CIV43",
+            "nombre": "Introducción a la Ingeniería Civil",
+            "creditos": 2,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1ING02"
+            ],
+            "descripcion": "Ofrece un panorama integral sobre el rol del ingeniero civil en el desarrollo de infraestructura sostenible, áreas de especialización (estructuras, geotecnia, hidráulica, transportes, construcción), ética profesional, normatividad y visitas técnicas a grandes obras representativas.",
+            "tipAlumno": "Aprovecha este curso para conocer de cerca las distintas ramas de la carrera antes de pasar a facultad.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-306",
             "codigo": "1INF01",
             "nombre": "Fundamentos de Programación",
             "creditos": 3,
@@ -283,10 +291,10 @@
             "prerequisitos": [
               "1FIS02"
             ],
-            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados."
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos estructurados y programación en lenguaje de alto nivel (C++/Python). Permite automatizar cálculos numéricos, procesar matrices de rigidez y modelar problemas analíticos de ingeniería."
           },
           {
-            "id": "civ-306",
+            "id": "civ-307",
             "codigo": "EH2",
             "nombre": "Electivo de Humanidades 2",
             "creditos": 3,
@@ -359,10 +367,39 @@
             "prerequisitos": [
               "1MAT08"
             ],
-            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
+            "descripcion": "Cálculo vectorial avanzado y ecuaciones diferenciales aplicadas. Abarca integrales de línea y superficie, teoremas de Green, Stokes y Gauss, y resolución de ecuaciones diferenciales ordinarias esenciales para modelar sistemas mecánicos y estructurales."
           },
           {
             "id": "civ-402",
+            "codigo": "CIV156",
+            "nombre": "Campo de Topografía",
+            "creditos": 1.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1CIV42"
+            ],
+            "descripcion": "Práctica intensiva de campo donde aplicarás métodos de levantamiento topográfico real con estación total, teodolito y nivel de precisión. Incluye brigadas de trabajo para procesar datos, cálculo de poligonales y generación de planos topográficos de obra.",
+            "tipAlumno": "El trabajo en equipo en el campo de topografía es la primera experiencia real de obra de la carrera.",
+            "autorTip": "Gonzalo V. (7mo Ciclo)"
+          },
+          {
+            "id": "civ-403",
+            "codigo": "ING135",
+            "nombre": "Estática",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS02",
+              "1MAT07"
+            ],
+            "descripcion": "Estudia el equilibrio estático de partículas y cuerpos rígidos en 2D y 3D, análisis de armaduras y marcos, fuerzas internas, centroides, momentos de inercia y trazado riguroso de diagramas de fuerza cortante y momento flector en vigas.",
+            "tipAlumno": "¡El curso más importante de EEGGCC para Civil! Los diagramas de momento y cortante los usarás en toda la carrera.",
+            "autorTip": "Mateo R. (8vo Ciclo)"
+          },
+          {
+            "id": "civ-404",
             "codigo": "1FIS06",
             "nombre": "Física 3",
             "creditos": 4.5,
@@ -372,10 +409,10 @@
               "1FIS04",
               "1FIS05"
             ],
-            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, dilatación térmica de materiales y propagación de ondas."
           },
           {
-            "id": "civ-403",
+            "id": "civ-405",
             "codigo": "1FIS07",
             "nombre": "Laboratorio de Física 3",
             "creditos": 0.5,
@@ -387,22 +424,22 @@
             "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
           },
           {
-            "id": "civ-404",
-            "codigo": "ING693",
-            "nombre": "Mecánica para Ingenieros 1 (Estática)",
-            "creditos": 5,
+            "id": "civ-406",
+            "codigo": "1CIV42",
+            "nombre": "Topografía",
+            "creditos": 3.5,
             "tipo": "estudios_generales",
             "ciclo": 4,
             "prerequisitos": [
-              "1FIS02",
-              "1MAT07"
+              "1ING02",
+              "1MAT04"
             ],
-            "descripcion": "Analiza el ciclo de vida de proyectos de ingeniería, evaluación de impacto ambiental, sostenibilidad ecológica y marco normativo peruano. Fomenta el diseño de soluciones de infraestructura y tecnología con bajo impacto ecológico y compromiso con la sociedad.",
-            "tipAlumno": "¡El curso clave de EEGGCC para Civil! Domina los diagramas de cortante y momento.",
-            "autorTip": "Mateo R. (8vo Ciclo)"
+            "descripcion": "Teoría y cálculos de planimetría, altimetría, nivelación geométrica y trigonométrica, curvas de nivel, taquimetría y fotogrametría digital para el diseño de trazados viales, obras hidráulicas y explanaciones.",
+            "tipAlumno": "Aprende bien el cálculo de errores y cierre angular en poligonales.",
+            "autorTip": "Renzo D. (8vo Ciclo)"
           },
           {
-            "id": "civ-405",
+            "id": "civ-407",
             "codigo": "TEO",
             "nombre": "Electivo de Teología y Religión",
             "creditos": 3.5,
@@ -1900,56 +1937,59 @@
             "creditos": 4.5,
             "tipo": "estudios_generales",
             "ciclo": 1,
-            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas estructurales y físicos con rigor analítico. Es la base indispensable para los cursos de física y modelado computacional.",
-            "tipAlumno": "Las matrices son la base de los gráficos por computadora y las redes neuronales.",
-            "autorTip": "Valeria S. (7mo Ciclo)"
-          },
-          {
-            "id": "inf-102",
-            "codigo": "1MAT05",
-            "nombre": "Fundamentos de Cálculo",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio en todo fenómeno físico e ingenieril. Te prepara para el razonamiento matemático superior.",
-            "tipAlumno": "El rigor lógico de este curso te servirá para estructurar algoritmos limpios.",
+            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas y algoritmos con rigor analítico. Es la base matemática para computación gráfica y ciencia de datos.",
+            "tipAlumno": "Vectores y matrices serán tu pan de cada día en computación gráfica e IA.",
             "autorTip": "Carlos M. (6to Ciclo)"
           },
           {
-            "id": "inf-103",
-            "codigo": "1FIS01",
-            "nombre": "Fundamentos de Física",
-            "creditos": 3.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en sistemas mecánicos reales. Es el primer pilar de la física universitaria en ingeniería."
-          },
-          {
-            "id": "inf-104",
-            "codigo": "1QUI01",
-            "nombre": "Química 1",
-            "creditos": 3.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
-          },
-          {
-            "id": "inf-105",
-            "codigo": "1QUI02",
-            "nombre": "Laboratorio de Química 1",
-            "creditos": 0.75,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
-          },
-          {
-            "id": "inf-106",
+            "id": "inf-102",
             "codigo": "1LIN15",
             "nombre": "Comunicación Académica",
             "creditos": 3,
             "tipo": "estudios_generales",
             "ciclo": 1,
-            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos científicos y argumentación lógica formal. Clave para documentar código, redactar informes técnicos y sustentar proyectos de software."
+          },
+          {
+            "id": "inf-103",
+            "codigo": "1MAT05",
+            "nombre": "Fundamentos de Cálculo",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio y el análisis asintótico.",
+            "tipAlumno": "Practica límites y continuidad desde el primer día para no complicarte en las prácticas.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-104",
+            "codigo": "1FIS01",
+            "nombre": "Fundamentos de Física",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición analítica para plantear diagramas de cuerpo libre en sistemas reales."
+          },
+          {
+            "id": "inf-105",
+            "codigo": "1QUI01",
+            "nombre": "Química 1",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales semiconductores."
+          },
+          {
+            "id": "inf-106",
+            "codigo": "1QUI02",
+            "nombre": "Laboratorio de Química 1",
+            "creditos": 0.75,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "prerequisitos": [
+              "1QUI01"
+            ],
+            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental y toma de datos científicos."
           }
         ]
       },
@@ -1970,10 +2010,31 @@
               "1MAT05",
               "1MAT04"
             ],
-            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación y calcular áreas bajo la curva aplicadas a la física y la ingeniería. Fundamental para el análisis dinámico de sistemas."
+            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación aplicadas a la modelación y optimización de funciones matemáticas."
           },
           {
             "id": "inf-202",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos (incluyendo ética en algoritmos e inteligencia artificial) y la responsabilidad social del profesional en la era digital."
+          },
+          {
+            "id": "inf-203",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Desarrolla la visión espacial tridimensional y el rigor de representación gráfica."
+          },
+          {
+            "id": "inf-204",
             "codigo": "1FIS02",
             "nombre": "Física 1",
             "creditos": 4.5,
@@ -1983,10 +2044,10 @@
               "1FIS01",
               "1MAT06"
             ],
-            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para entender sistemas en movimiento periódico y equilibrio de fluidos en reposo y movimiento."
+            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para modelar sistemas físicos en movimiento periódico."
           },
           {
-            "id": "inf-203",
+            "id": "inf-205",
             "codigo": "1FIS03",
             "nombre": "Laboratorio de Física 1",
             "creditos": 0.5,
@@ -1995,22 +2056,10 @@
             "prerequisitos": [
               "1FIS02"
             ],
-            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
+            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre y ajuste de curvas experimentales."
           },
           {
-            "id": "inf-204",
-            "codigo": "1ING02",
-            "nombre": "Dibujo en Ingeniería",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "prerequisitos": [
-              "1MAT04"
-            ],
-            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional."
-          },
-          {
-            "id": "inf-205",
+            "id": "inf-206",
             "codigo": "1LIN16",
             "nombre": "Trabajo Académico",
             "creditos": 3,
@@ -2019,25 +2068,16 @@
             "prerequisitos": [
               "1LIN15"
             ],
-            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
-          },
-          {
-            "id": "inf-206",
-            "codigo": "1FIL01",
-            "nombre": "Ciencia y Filosofía",
-            "creditos": 3,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para sustentar proyectos técnicos y propuestas de innovación con solvencia profesional."
           },
           {
             "id": "inf-207",
             "codigo": "EH1",
-            "nombre": "Electivo de Humanidades 1",
+            "nombre": "Electivos de Humanidades 1",
             "creditos": 2,
             "tipo": "electivo",
             "ciclo": 2,
-            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de formación humanística, ciudadana y cultural aprobadas por Estudios Generales Ciencias.",
             "opcionesElectivas": [
               {
                 "codigo": "1HIS02",
@@ -2063,32 +2103,8 @@
                 "codigo": "1PSI03",
                 "nombre": "Desarrollo de Habilidades Personales",
                 "creditos": 2
-              },
-              {
-                "codigo": "1EGC01",
-                "nombre": "Curso de Tema Libre 1",
-                "creditos": 2
-              },
-              {
-                "codigo": "1EGC02",
-                "nombre": "Curso de Tema Libre 2",
-                "creditos": 2
-              },
-              {
-                "codigo": "1HUM03",
-                "nombre": "Electivo de Humanidades 1 (Convalidación)",
-                "creditos": 2
               }
             ]
-          },
-          {
-            "id": "inf-208",
-            "codigo": "IDM101",
-            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
-            "creditos": 0,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
           }
         ]
       },
@@ -2109,7 +2125,7 @@
               "1MAT06",
               "1MAT04"
             ],
-            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular volúmenes de revolución, longitudes de arco y convergencia de aproximaciones numéricas en ingeniería."
+            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite modelar fenómenos continuos y convergencia de métodos numéricos en ciencias de la computación."
           },
           {
             "id": "inf-302",
@@ -2121,10 +2137,25 @@
             "prerequisitos": [
               "1MAT07"
             ],
-            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+            "descripcion": "Estudia funciones de varias variables, derivadas parciales, gradientes, optimización multivariable, integrales dobles y triples. Fundamental para comprender el descenso de gradiente en algoritmos de machine learning e inteligencia artificial."
           },
           {
             "id": "inf-303",
+            "codigo": "INF134",
+            "nombre": "Estructuras Discretas",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1MAT04",
+              "1MAT05"
+            ],
+            "descripcion": "Estudia la lógica proposicional y de predicados, teoría de conjuntos, relaciones y funciones, técnicas de demostración matemática, inducción, combinatoria y teoría de grafos y árboles. Es la base matemática indispensable para el análisis de algoritmos, diseño de bases de datos y autómatas.",
+            "tipAlumno": "¡Curso vital para Informática! Lógica y teoría de grafos se usan en toda la carrera.",
+            "autorTip": "Valeria S. (7mo Ciclo)"
+          },
+          {
+            "id": "inf-304",
             "codigo": "1FIS04",
             "nombre": "Física 2",
             "creditos": 4.5,
@@ -2135,10 +2166,10 @@
               "1FIS03",
               "1MAT07"
             ],
-            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos."
+            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base para comprender el funcionamiento físico del hardware y la microelectrónica."
           },
           {
-            "id": "inf-304",
+            "id": "inf-305",
             "codigo": "1FIS05",
             "nombre": "Laboratorio de Física 2",
             "creditos": 0.5,
@@ -2147,44 +2178,89 @@
             "prerequisitos": [
               "1FIS04"
             ],
-            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas electromagnéticos y circuitos en laboratorio."
+            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas de circuitos en laboratorio."
           },
           {
-            "id": "inf-305",
+            "id": "inf-306",
             "codigo": "1INF01",
             "nombre": "Fundamentos de Programación",
             "creditos": 3,
             "tipo": "estudios_generales",
             "ciclo": 3,
             "prerequisitos": [
-              "1FIS02"
+              "1MAT04"
             ],
-            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados.",
-            "tipAlumno": "Prueba tus programas con casos límite; los tests automáticos evalúan todo.",
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos estructurados, tipos de datos, control de flujo y modularización en lenguaje de programación (C/Python). Te entrena en la resolución lógica y algorítmica de problemas reales.",
+            "tipAlumno": "Aprende a modularizar y documentar tu código desde el inicio; te ahorrará horas depurando.",
+            "autorTip": "Carlos M. (6to Ciclo)"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "4to Ciclo",
+        "etapa": "Estudios Generales Ciencias",
+        "descripcion": "Técnicas de programación (filtro de EEGGCC), Física 3 y Electivo Teología.",
+        "cursos": [
+          {
+            "id": "inf-401",
+            "codigo": "1MAT09",
+            "nombre": "Cálculo Aplicado",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1MAT08"
+            ],
+            "descripcion": "Cálculo vectorial avanzado y ecuaciones diferenciales aplicadas. Abarca integrales de línea y superficie, teoremas de Green, Stokes y Gauss, y resolución de ecuaciones diferenciales ordinarias esenciales para modelar sistemas computacionales continuos."
+          },
+          {
+            "id": "inf-402",
+            "codigo": "1FIS06",
+            "nombre": "Física 3",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS04",
+              "1FIS05"
+            ],
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la disipación térmica en centros de datos y procesamiento de señales ópticas y acústicas."
+          },
+          {
+            "id": "inf-403",
+            "codigo": "1FIS07",
+            "nombre": "Laboratorio de Física 3",
+            "creditos": 0.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1FIS06"
+            ],
+            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
+          },
+          {
+            "id": "inf-404",
+            "codigo": "INF144",
+            "nombre": "Técnicas de Programación",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 4,
+            "prerequisitos": [
+              "1INF01"
+            ],
+            "descripcion": "Profundiza en el paradigma de programación estructurada y modular avanzada, punteros, gestión dinámica de memoria, estructuras de datos enlazadas (listas, pilas, colas), recursividad y modularización en lenguaje C/C++. Prepara al estudiante para el desarrollo de software de alto rendimiento.",
+            "tipAlumno": "¡El curso filtro de EEGGCC! Domina punteros, memoria dinámica y estructuras enlazadas en C.",
             "autorTip": "Carlos M. (6to Ciclo)"
           },
           {
-            "id": "inf-306",
-            "codigo": "INF134",
-            "nombre": "Estructuras Discretas",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 3,
-            "prerequisitos": [
-              "1MAT07"
-            ],
-            "descripcion": "Asignatura especializada de 3er Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Estructuras Discretas. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
-            "tipAlumno": "¡Clave absoluta! Todo lo que aprendas aquí lo usarás en IA y Base de Datos.",
-            "autorTip": "Valeria S. (7mo Ciclo)"
-          },
-          {
-            "id": "inf-307",
+            "id": "inf-405",
             "codigo": "EH2",
-            "nombre": "Electivo de Humanidades 2",
+            "nombre": "Electivos de Humanidades 2",
             "creditos": 3,
             "tipo": "electivo",
-            "ciclo": 3,
-            "descripcion": "Espacio curricular flexible de 3er Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "ciclo": 4,
+            "descripcion": "Espacio curricular de profundización en ciencias humanas y sociales (antropología, literatura, sociología, psicología) aprobado por Estudios Generales Ciencias.",
             "opcionesElectivas": [
               {
                 "codigo": "1ANT01",
@@ -2210,96 +2286,17 @@
                 "codigo": "1SOC01",
                 "nombre": "Sociología",
                 "creditos": 3
-              },
-              {
-                "codigo": "CCO103",
-                "nombre": "Taller de Teatro",
-                "creditos": 3
-              },
-              {
-                "codigo": "1EGC03",
-                "nombre": "Curso de Tema Libre 3",
-                "creditos": 3
-              },
-              {
-                "codigo": "1EGC04",
-                "nombre": "Curso de Tema Libre 4",
-                "creditos": 3
-              },
-              {
-                "codigo": "1HUM04",
-                "nombre": "Electivo de Humanidades 2 (Convalidación)",
-                "creditos": 3
               }
             ]
-          }
-        ]
-      },
-      {
-        "numero": 4,
-        "nombre": "4to Ciclo",
-        "etapa": "Estudios Generales Ciencias",
-        "descripcion": "Técnicas de programación (filtro de EEGGCC), Física 3 y Electivo Teología.",
-        "cursos": [
-          {
-            "id": "inf-401",
-            "codigo": "1MAT09",
-            "nombre": "Cálculo Aplicado",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 4,
-            "prerequisitos": [
-              "1MAT08"
-            ],
-            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
           },
           {
-            "id": "inf-402",
-            "codigo": "1FIS06",
-            "nombre": "Física 3",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 4,
-            "prerequisitos": [
-              "1FIS04",
-              "1FIS05"
-            ],
-            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
-          },
-          {
-            "id": "inf-403",
-            "codigo": "1FIS07",
-            "nombre": "Laboratorio de Física 3",
-            "creditos": 0.5,
-            "tipo": "estudios_generales",
-            "ciclo": 4,
-            "prerequisitos": [
-              "1FIS06"
-            ],
-            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
-          },
-          {
-            "id": "inf-404",
-            "codigo": "INF144",
-            "nombre": "Técnicas de Programación",
-            "creditos": 5,
-            "tipo": "estudios_generales",
-            "ciclo": 4,
-            "prerequisitos": [
-              "1INF01"
-            ],
-            "descripcion": "Asignatura especializada de 4to Ciclo enfocada en el dominio teórico y práctico de los fundamentos de Técnicas de Programación. Desarrolla competencias técnicas analíticas mediante el estudio de casos y resolución de problemas aplicados a la ingeniería moderna.",
-            "tipAlumno": "El curso legendario de EEGGCC. Aprende a depurar con gdb para evitar Segmentation Faults.",
-            "autorTip": "Valeria S. (7mo Ciclo)"
-          },
-          {
-            "id": "inf-405",
+            "id": "inf-406",
             "codigo": "TEO",
-            "nombre": "Electivo de Teología y Religión",
+            "nombre": "Electivos de Teología y Religión",
             "creditos": 3.5,
             "tipo": "electivo",
             "ciclo": 4,
-            "descripcion": "Espacio curricular flexible de 4to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "descripcion": "Espacio de formación ética, humanista y teológica promovido por la universidad para reflexionar sobre el sentido de la vida, la justicia social y el bien común.",
             "opcionesElectivas": [
               {
                 "codigo": "CDR121",
@@ -2319,26 +2316,6 @@
               {
                 "codigo": "TEO111",
                 "nombre": "Teología 1",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO01",
-                "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO02",
-                "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO03",
-                "nombre": "Revelación de Dios en la Historia",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO04",
-                "nombre": "Electivo de Teología y Religión (Convalidación)",
                 "creditos": 3.5
               }
             ]
@@ -3260,54 +3237,59 @@
             "creditos": 4.5,
             "tipo": "estudios_generales",
             "ciclo": 1,
-            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente problemas estructurales y físicos con rigor analítico. Es la base indispensable para los cursos de física y modelado computacional.",
-            "tipAlumno": "Las matrices de rotación en 3D son la base matemática de cómo se mueven los robots.",
-            "autorTip": "Diego C. (9no Ciclo)"
+            "descripcion": "Estudia el álgebra lineal aplicada, espacios vectoriales en 2D y 3D, transformaciones lineales y sistemas de ecuaciones matriciales. Permite modelar geométricamente cinemática de mecanismos y robótica con rigor analítico.",
+            "tipAlumno": "Vectores y matrices son la base directa para cinemática de robots y visión artificial.",
+            "autorTip": "Sebastián P. (8vo Ciclo)"
           },
           {
             "id": "mtr-102",
-            "codigo": "1MAT05",
-            "nombre": "Fundamentos de Cálculo",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la razón de cambio en todo fenómeno físico e ingenieril. Te prepara para el razonamiento matemático superior."
-          },
-          {
-            "id": "mtr-103",
-            "codigo": "1FIS01",
-            "nombre": "Fundamentos de Física",
-            "creditos": 3.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en sistemas mecánicos reales. Es el primer pilar de la física universitaria en ingeniería."
-          },
-          {
-            "id": "mtr-104",
-            "codigo": "1QUI01",
-            "nombre": "Química 1",
-            "creditos": 3.5,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de ingeniería. Esencial para entender el comportamiento de sustancias y compuestos."
-          },
-          {
-            "id": "mtr-105",
-            "codigo": "1QUI02",
-            "nombre": "Laboratorio de Química 1",
-            "creditos": 0.75,
-            "tipo": "estudios_generales",
-            "ciclo": 1,
-            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental, toma de datos y elaboración de informes científicos. Complementa de forma práctica los conceptos de Química 1."
-          },
-          {
-            "id": "mtr-106",
             "codigo": "1LIN15",
             "nombre": "Comunicación Académica",
             "creditos": 3,
             "tipo": "estudios_generales",
             "ciclo": 1,
-            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos de divulgación científica y argumentación lógica formal. Clave para comunicar ideas técnicas de ingeniería con claridad, coherencia y precisión profesional en informes y proyectos."
+            "descripcion": "Fortalece las competencias de redacción académica universitaria, comprensión crítica de textos científicos y argumentación lógica formal. Clave para documentar planos, reportes técnicos y proyectos mecatrónicos interdisciplinarios."
+          },
+          {
+            "id": "mtr-103",
+            "codigo": "1MAT05",
+            "nombre": "Fundamentos de Cálculo",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Desarrolla el estudio formal de funciones de variable real, continuidad y límites con demostraciones analíticas rigurosas. Es la base conceptual indispensable para comprender la dinámica de sistemas mecatrónicos.",
+            "tipAlumno": "Domina el razonamiento formal y análisis de funciones desde la semana 1.",
+            "autorTip": "Lucía A. (6to Ciclo)"
+          },
+          {
+            "id": "mtr-104",
+            "codigo": "1FIS01",
+            "nombre": "Fundamentos de Física",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Analiza las leyes de Newton, estática, cinemática de partículas, trabajo mecánico, conservación de energía y momento lineal. Desarrolla la intuición física para plantear diagramas de cuerpo libre en mecanismos mecatrónicos."
+          },
+          {
+            "id": "mtr-105",
+            "codigo": "1QUI01",
+            "nombre": "Química 1",
+            "creditos": 3.5,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "descripcion": "Comprende la estructura atómica, enlaces químicos, estequiometría de reacciones, disoluciones y estados de la materia. Otorga las bases moleculares para comprender las propiedades físico-químicas de los materiales de manufactura."
+          },
+          {
+            "id": "mtr-106",
+            "codigo": "1QUI02",
+            "nombre": "Laboratorio de Química 1",
+            "creditos": 0.75,
+            "tipo": "estudios_generales",
+            "ciclo": 1,
+            "prerequisitos": [
+              "1QUI01"
+            ],
+            "descripcion": "Espacio práctico experimental donde aplicarás técnicas analíticas de laboratorio, medición volumétrica y manejo seguro de reactivos químicos. Desarrolla habilidades de rigor experimental y análisis de datos."
           }
         ]
       },
@@ -3328,10 +3310,33 @@
               "1MAT05",
               "1MAT04"
             ],
-            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación y calcular áreas bajo la curva aplicadas a la física y la ingeniería. Fundamental para el análisis dinámico de sistemas."
+            "descripcion": "Aborda la derivada, optimización matemática, teoremas fundamentales del cálculo diferencial e integración indefinida y definida. Aprenderás a modelar tasas de variación aplicadas a la cinemática de sistemas mecánicos y electrónicos."
           },
           {
             "id": "mtr-202",
+            "codigo": "1FIL01",
+            "nombre": "Ciencia y Filosofía",
+            "creditos": 3,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos (incluyendo automatización, robótica e impacto social) y la responsabilidad del ingeniero en el desarrollo sostenible."
+          },
+          {
+            "id": "mtr-203",
+            "codigo": "1ING02",
+            "nombre": "Dibujo en Ingeniería",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 2,
+            "prerequisitos": [
+              "1MAT04"
+            ],
+            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado CAD 2D/3D. Aprenderás a diseñar piezas mecánicas y ensambles para fabricación digital y prototipado.",
+            "tipAlumno": "El modelado CAD 3D es fundamental para diseñar tus primeros robots y carcasas mecatrónicas.",
+            "autorTip": "Sebastián P. (8vo Ciclo)"
+          },
+          {
+            "id": "mtr-204",
             "codigo": "1FIS02",
             "nombre": "Física 1",
             "creditos": 4.5,
@@ -3341,12 +3346,10 @@
               "1FIS01",
               "1MAT06"
             ],
-            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para entender sistemas en movimiento periódico y equilibrio de fluidos en reposo y movimiento.",
-            "tipAlumno": "Aprende bien torque y momento angular; te ayudará enormemente al elegir servomotores.",
-            "autorTip": "Diego C. (9no Ciclo)"
+            "descripcion": "Profundiza en dinámica rotacional, momento de inercia, gravitación universal, oscilaciones armónicas simples y mecánica de fluidos. Proporciona las herramientas analíticas para comprender dinámica de rotores y actuadores."
           },
           {
-            "id": "mtr-203",
+            "id": "mtr-205",
             "codigo": "1FIS03",
             "nombre": "Laboratorio de Física 1",
             "creditos": 0.5,
@@ -3355,24 +3358,10 @@
             "prerequisitos": [
               "1FIS02"
             ],
-            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis de incertidumbre, propagación de errores y ajuste de curvas experimentales."
+            "descripcion": "Sesiones experimentales con sensores digitales y software de adquisición de datos para verificar leyes de la cinemática, dinámica y conservación de energía. Desarrolla capacidades de análisis experimental e instrumentación."
           },
           {
-            "id": "mtr-204",
-            "codigo": "1ING02",
-            "nombre": "Dibujo en Ingeniería",
-            "creditos": 4.5,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "prerequisitos": [
-              "1MAT04"
-            ],
-            "descripcion": "Introduce los principios del diseño ingenieril, dibujo técnico normalizado, proyecciones ortogonales y modelado digital en software CAD 2D/3D. Aprenderás a interpretar y generar planos técnicos de proyectos reales siguiendo normas de representación internacional.",
-            "tipAlumno": "Mecatrónica exige modelar chasis y acoples en 3D para corte o impresión 3D.",
-            "autorTip": "Sebastián M. (7mo Ciclo)"
-          },
-          {
-            "id": "mtr-205",
+            "id": "mtr-206",
             "codigo": "1LIN16",
             "nombre": "Trabajo Académico",
             "creditos": 3,
@@ -3381,25 +3370,16 @@
             "prerequisitos": [
               "1LIN15"
             ],
-            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para defender proyectos, sustentar investigaciones y exponer propuestas técnicas con solvencia y seguridad profesional."
-          },
-          {
-            "id": "mtr-206",
-            "codigo": "1FIL01",
-            "nombre": "Ciencia y Filosofía",
-            "creditos": 3,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Reflexiona sobre la epistemología del conocimiento científico, dilemas éticos contemporáneos y la responsabilidad social del quehacer universitario. Promueve una visión humanista y crítica del impacto de la tecnología en la sociedad y el desarrollo sostenible del país."
+            "descripcion": "Enfocado en la argumentación académica avanzada, investigación documental rigurosa y exposición oral formal frente a auditorios calificados. Te prepara para sustentar proyectos y avances tecnológicos con solvencia."
           },
           {
             "id": "mtr-207",
             "codigo": "EH1",
-            "nombre": "Electivo de Humanidades 1",
+            "nombre": "Electivos de Humanidades 1",
             "creditos": 2,
             "tipo": "electivo",
             "ciclo": 2,
-            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "descripcion": "Espacio curricular flexible de 2do Ciclo que te permite seleccionar asignaturas de formación humanística, ciudadana y cultural aprobadas por Estudios Generales Ciencias.",
             "opcionesElectivas": [
               {
                 "codigo": "1HIS02",
@@ -3425,32 +3405,8 @@
                 "codigo": "1PSI03",
                 "nombre": "Desarrollo de Habilidades Personales",
                 "creditos": 2
-              },
-              {
-                "codigo": "1EGC01",
-                "nombre": "Curso de Tema Libre 1",
-                "creditos": 2
-              },
-              {
-                "codigo": "1EGC02",
-                "nombre": "Curso de Tema Libre 2",
-                "creditos": 2
-              },
-              {
-                "codigo": "1HUM03",
-                "nombre": "Electivo de Humanidades 1 (Convalidación)",
-                "creditos": 2
               }
             ]
-          },
-          {
-            "id": "mtr-208",
-            "codigo": "IDM101",
-            "nombre": "Idioma Extranjero (Nivel Básico de Inglés)",
-            "creditos": 0,
-            "tipo": "estudios_generales",
-            "ciclo": 2,
-            "descripcion": "Acreditación obligatoria del dominio del idioma inglés en nivel básico/intermedio según el marco de referencia internacional. Esencial para acceder a literatura científica global, manuales de equipos, documentación técnica y programas de intercambio internacional."
           }
         ]
       },
@@ -3471,7 +3427,7 @@
               "1MAT06",
               "1MAT04"
             ],
-            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular volúmenes de revolución, longitudes de arco y convergencia de aproximaciones numéricas en ingeniería."
+            "descripcion": "Trata técnicas avanzadas de integración, sucesiones y series infinitas, funciones vectoriales y geometría analítica del espacio tridimensional. Permite calcular centros de gravedad y momentos de inercia en mecanismos mecatrónicos."
           },
           {
             "id": "mtr-302",
@@ -3483,10 +3439,25 @@
             "prerequisitos": [
               "1MAT07"
             ],
-            "descripcion": "Cubre variables aleatorias, distribuciones de probabilidad continuas y discretas, muestreo estadístico e inferencia de pruebas de hipótesis. Vital para el control de calidad, toma de decisiones bajo incertidumbre, confiabilidad de sistemas y análisis de datos en ingeniería."
+            "descripcion": "Estudia funciones de varias variables, derivadas parciales, planos tangentes, optimización multivariable, integrales dobles y triples. Esencial para modelar espacios de trabajo tridimensionales de brazos robóticos."
           },
           {
             "id": "mtr-303",
+            "codigo": "1IEE04",
+            "nombre": "Diseño Digital",
+            "creditos": 4.5,
+            "tipo": "estudios_generales",
+            "ciclo": 3,
+            "prerequisitos": [
+              "1FIS01",
+              "1MAT04"
+            ],
+            "descripcion": "Estudia el álgebra de Boole, compuertas lógicas, sistemas combinacionales, biestables (flip-flops), contadores, registros y máquinas de estado síncronas. Introduce la lógica digital y circuitos que componen los microcontroladores y procesadores embebidos.",
+            "tipAlumno": "¡El primer curso de hardware mecatrónico! Domina tablas de verdad, mapas de Karnaugh y máquinas de estados.",
+            "autorTip": "Lucía A. (6to Ciclo)"
+          },
+          {
+            "id": "mtr-304",
             "codigo": "1FIS04",
             "nombre": "Física 2",
             "creditos": 4.5,
@@ -3497,10 +3468,10 @@
               "1FIS03",
               "1MAT07"
             ],
-            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender la energía eléctrica, campos electromagnéticos, motores y circuitos modernos."
+            "descripcion": "Estudia electromagnetismo clásico, electrostática, ley de Gauss, circuitos de corriente continua y alterna, magnetostática e inducción electromagnética. Base fundamental para comprender motores eléctricos, sensores electromagnéticos y transformadores."
           },
           {
-            "id": "mtr-304",
+            "id": "mtr-305",
             "codigo": "1FIS05",
             "nombre": "Laboratorio de Física 2",
             "creditos": 0.5,
@@ -3509,30 +3480,16 @@
             "prerequisitos": [
               "1FIS04"
             ],
-            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, fuentes de poder) para contrastar leyes de Faraday, Kirchhoff y circuitos RLC. Fortalece la destreza experimental en sistemas electromagnéticos y circuitos en laboratorio."
-          },
-          {
-            "id": "mtr-305",
-            "codigo": "1IEE04",
-            "nombre": "Diseño Digital",
-            "creditos": 5,
-            "tipo": "estudios_generales",
-            "ciclo": 3,
-            "prerequisitos": [
-              "35 créditos"
-            ],
-            "descripcion": "Enseña lógica algorítmica, estructuras de control, funciones, arreglos y programación estructurada aplicada a la resolución de problemas técnicos. Te capacita para automatizar cálculos matemáticos, procesar datos y crear simulaciones de ingeniería mediante código.",
-            "tipAlumno": "Tu primer curso 100% de hardware digital. Verás tus circuitos cobrar vida en la placa FPGA.",
-            "autorTip": "Diego C. (9no Ciclo)"
+            "descripcion": "Experimentos con instrumentos de medición eléctrica (multímetros, osciloscopios, generadores de señales) para contrastar leyes electromagnéticas y circuitos RLC en laboratorio."
           },
           {
             "id": "mtr-306",
             "codigo": "EH2",
-            "nombre": "Electivo de Humanidades 2",
+            "nombre": "Electivos de Humanidades 2",
             "creditos": 3,
             "tipo": "electivo",
             "ciclo": 3,
-            "descripcion": "Espacio curricular flexible de 3er Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "descripcion": "Espacio curricular de profundización en ciencias humanas y sociales (antropología, literatura, sociología, psicología) aprobado por Estudios Generales Ciencias.",
             "opcionesElectivas": [
               {
                 "codigo": "1ANT01",
@@ -3558,26 +3515,6 @@
                 "codigo": "1SOC01",
                 "nombre": "Sociología",
                 "creditos": 3
-              },
-              {
-                "codigo": "CCO103",
-                "nombre": "Taller de Teatro",
-                "creditos": 3
-              },
-              {
-                "codigo": "1EGC03",
-                "nombre": "Curso de Tema Libre 3",
-                "creditos": 3
-              },
-              {
-                "codigo": "1EGC04",
-                "nombre": "Curso de Tema Libre 4",
-                "creditos": 3
-              },
-              {
-                "codigo": "1HUM04",
-                "nombre": "Electivo de Humanidades 2 (Convalidación)",
-                "creditos": 3
               }
             ]
           }
@@ -3599,7 +3536,7 @@
             "prerequisitos": [
               "1MAT08"
             ],
-            "descripcion": "Cálculo multivariable que abarca derivadas parciales, gradientes, optimización con multiplicadores de Lagrange, integrales dobles y triples, y teoremas de Green, Stokes y Gauss. Indispensable para modelar flujos de calor, mecánica continua y dinámica de fluidos."
+            "descripcion": "Cálculo vectorial avanzado y ecuaciones diferenciales aplicadas. Abarca integrales de línea y superficie, teoremas de Green, Stokes y Gauss, y resolución de ecuaciones diferenciales ordinarias esenciales para modelar sistemas de control y dinámica mecatrónica."
           },
           {
             "id": "mtr-402",
@@ -3612,7 +3549,9 @@
               "1FIS04",
               "1FIS05"
             ],
-            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia de calor, eficiencia de máquinas térmicas y propagación de ondas acústicas y lumínicas."
+            "descripcion": "Explora termodinámica clásica, leyes de los gases, ciclos térmicos, entropía, ondas mecánicas, acústica y principios de óptica física. Clave para comprender la transferencia térmica en motores y sensores ultrasónicos/ópticos.",
+            "tipAlumno": "Comprende la propagación de ondas; te servirá cuando trabajes con sensores ultrasónicos en robótica.",
+            "autorTip": "Sebastián P. (8vo Ciclo)"
           },
           {
             "id": "mtr-403",
@@ -3624,7 +3563,7 @@
             "prerequisitos": [
               "1FIS06"
             ],
-            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición rigurosa de variables térmicas y fenómenos ondulatorios con instrumental especializado."
+            "descripcion": "Prácticas de laboratorio sobre calorimetría, dilatación térmica, velocidad del sonido, óptica geométrica y difracción de la luz. Te entrena en la medición de variables térmicas y ópticas con instrumental de precisión."
           },
           {
             "id": "mtr-404",
@@ -3634,33 +3573,33 @@
             "tipo": "estudios_generales",
             "ciclo": 4,
             "prerequisitos": [
-              "1FIS02"
+              "1MAT04"
             ],
-            "descripcion": "Introduce los fundamentos del pensamiento computacional, diseño de algoritmos modulares, estructuras de datos básicas y resolución de problemas. Aprenderás a traducir requerimientos lógicos en programas computacionales eficientes y correctamente documentados."
+            "descripcion": "Introduce los fundamentos del pensamiento computacional, algoritmos estructurados, tipos de datos, control de flujo y programación en C/C++. Permite programar la lógica de control en sistemas embebidos y microcontroladores (Arduino, ESP32, STM32)."
           },
           {
             "id": "mtr-405",
             "codigo": "ING693",
-            "nombre": "Mecánica para Ingenieros 1 (Estática)",
-            "creditos": 5,
+            "nombre": "Mecánica para Ingenieros 1",
+            "creditos": 4.5,
             "tipo": "estudios_generales",
             "ciclo": 4,
             "prerequisitos": [
               "1FIS02",
               "1MAT07"
             ],
-            "descripcion": "Analiza el ciclo de vida de proyectos de ingeniería, evaluación de impacto ambiental, sostenibilidad ecológica y marco normativo peruano. Fomenta el diseño de soluciones de infraestructura y tecnología con bajo impacto ecológico y compromiso con la sociedad.",
-            "tipAlumno": "Te servirá directamente para calcular las fuerzas en los eslabones de un robot.",
-            "autorTip": "Sebastián M. (7mo Ciclo)"
+            "descripcion": "Estudia el equilibrio estático de cuerpos rígidos, análisis de fuerzas internas en estructuras y mecanismos articulados, centroides, momentos de inercia y fricción. Base fundamental para el cálculo y dimensionamiento de componentes mecánicos y chasis de robots.",
+            "tipAlumno": "Los diagramas de cuerpo libre y cálculo de momentos de inercia son indispensables para diseñar brazos y articulaciones mecánicas.",
+            "autorTip": "Lucía A. (6to Ciclo)"
           },
           {
             "id": "mtr-406",
             "codigo": "TEO",
-            "nombre": "Electivo de Teología y Religión",
+            "nombre": "Electivos de Teología y Religión",
             "creditos": 3.5,
             "tipo": "electivo",
             "ciclo": 4,
-            "descripcion": "Espacio curricular flexible de 4to Ciclo que te permite seleccionar asignaturas de profundización o interdisciplinarias entre una amplia lista de opciones aprobadas por la facultad. Te permite orientar tu perfil hacia menciones especializadas y áreas de investigación de vanguardia.",
+            "descripcion": "Espacio de formación ética, humanista y teológica promovido por la universidad para reflexionar sobre el sentido de la vida, la justicia social y el bien común.",
             "opcionesElectivas": [
               {
                 "codigo": "CDR121",
@@ -3680,26 +3619,6 @@
               {
                 "codigo": "TEO111",
                 "nombre": "Teología 1",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO01",
-                "nombre": "Ser Humano y Cristianismo en el Siglo XXI",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO02",
-                "nombre": "Fe en Diálogo con el Mundo Contemporáneo",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO03",
-                "nombre": "Revelación de Dios en la Historia",
-                "creditos": 3.5
-              },
-              {
-                "codigo": "1TEO04",
-                "nombre": "Electivo de Teología y Religión (Convalidación)",
                 "creditos": 3.5
               }
             ]
