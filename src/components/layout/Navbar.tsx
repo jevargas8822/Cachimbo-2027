@@ -37,9 +37,6 @@ export const Navbar = () => {
                 <span>Mi Carrera</span>
                 <span className="text-[#41B9E4]">PUCP</span>
               </div>
-              <span className="text-[11px] sm:text-xs uppercase tracking-wider font-semibold text-slate-300 mt-0.5 leading-tight">
-                Construye para el que viene
-              </span>
             </div>
           </Link>
 

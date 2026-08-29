@@ -17,7 +17,7 @@ export default function Home() {
               {/* Top Pill / Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-bold text-[#042354] shadow-xs font-['Montserrat',sans-serif]">
                 <span className="w-2 h-2 rounded-full bg-[#16C78E]" />
-                <span>Mi Carrera PUCP • Construye para el que viene</span>
+                <span>Mi Carrera PUCP</span>
               </div>
 
               {/* Main Title */}

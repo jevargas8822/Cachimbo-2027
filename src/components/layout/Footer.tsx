@@ -22,17 +22,14 @@ export const Footer = () => {
                 <span className="font-bold text-lg text-white font-['Montserrat',sans-serif]">
                   Mi Carrera <span className="text-[#41B9E4]">PUCP</span>
                 </span>
-                <span className="text-[10px] uppercase tracking-wider font-semibold text-slate-300">
-                  Construye para el que viene
-                </span>
               </div>
             </div>
             <p className="text-slate-300 text-sm max-w-sm leading-relaxed">
-              &quot;Construye para el que viene&quot; — Plataforma interactiva diseñada para que los ingresantes conozcan las mallas curriculares oficiales, electivos y testimonios de estudiantes mayores.
+              Plataforma interactiva diseñada para que los postulantes e ingresantes conozcan las mallas curriculares oficiales, electivos y testimonios de estudiantes mayores.
             </p>
             <div className="inline-flex items-center gap-2 text-xs text-emerald-300 bg-white/10 px-3 py-1.5 rounded-full border border-white/10">
               <Sparkles className="w-3.5 h-3.5 text-[#16C78E]" />
-              Iniciativa para cachimbos y postulantes PUCP
+              Iniciativa para estudiantes y postulantes PUCP
             </div>
           </div>
 
@@ -93,7 +90,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© 2027 Mi Carrera PUCP. Construye para el que viene.</p>
+          <p>© 2027 Mi Carrera PUCP. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1">
             Diseñado para la comunidad universitaria PUCP.
           </p>

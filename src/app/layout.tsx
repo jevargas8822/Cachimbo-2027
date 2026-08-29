@@ -19,7 +19,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Mi Carrera PUCP | Construye para el que viene",
+  title: "Mi Carrera PUCP",
   description: "Plataforma oficial interactiva para postulantes y estudiantes PUCP: mallas curriculares, test vocacional integral, testimonios de alumnos mayores y comparador de carreras.",
   keywords: ["PUCP", "Mi Carrera PUCP", "Malla Curricular PUCP", "Test Vocacional PUCP", "Carreras PUCP"],
 };
