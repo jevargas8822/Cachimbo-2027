@@ -4,7 +4,7 @@ import { TestWizard } from "@/components/test/TestWizard";
 import { HelpCircle } from "lucide-react";
 
 export const metadata = {
-  title: "Test Vocacional PUCP 2027 | Cachimbo 2027",
+  title: "Test Vocacional PUCP | Mi Carrera PUCP",
   description: "Descubre qué carrera de la PUCP se alinea mejor con tus talentos, pasiones y estilo de trabajo.",
 };
 

@@ -20,7 +20,7 @@ export const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="font-bold text-lg text-white font-['Montserrat',sans-serif]">
-                  Cachimbo <span className="text-[#41B9E4]">2027</span>
+                  Mi Carrera <span className="text-[#41B9E4]">PUCP</span>
                 </span>
                 <span className="text-[10px] uppercase tracking-wider font-semibold text-slate-300">
                   Construye para el que viene
@@ -93,7 +93,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© 2027 Cachimbo PUCP. Construye para el que viene.</p>
+          <p>© 2027 Mi Carrera PUCP. Construye para el que viene.</p>
           <p className="flex items-center gap-1">
             Diseñado para la comunidad universitaria PUCP.
           </p>

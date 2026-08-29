@@ -22,7 +22,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-40 w-full border-b border-[#03183b] bg-[#042354] text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24">
-          {/* Brand: Emblema Oficial Circular PUCP (Más Grande) + Cachimbo 2027 + Subtítulo */}
+          {/* Brand: Emblema Oficial Circular PUCP (Más Grande) + Mi Carrera PUCP + Subtítulo */}
           <Link href="/" className="flex items-center gap-3.5 sm:gap-4 group shrink-0 py-2">
             <Image
               src="/images/pucp-emblem-clean.png"
@@ -34,8 +34,8 @@ export const Navbar = () => {
             />
             <div className="flex flex-col justify-center">
               <div className="font-extrabold text-xl sm:text-2xl tracking-tight text-white flex items-center gap-1.5 font-['Montserrat',sans-serif] leading-tight">
-                <span>Cachimbo</span>
-                <span className="text-[#41B9E4]">2027</span>
+                <span>Mi Carrera</span>
+                <span className="text-[#41B9E4]">PUCP</span>
               </div>
               <span className="text-[11px] sm:text-xs uppercase tracking-wider font-semibold text-slate-300 mt-0.5 leading-tight">
                 Construye para el que viene

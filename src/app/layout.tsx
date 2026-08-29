@@ -19,9 +19,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Cachimbo PUCP 2027 | Construye para el que viene",
-  description: "Plataforma oficial interactiva para postulantes y cachimbos PUCP: mallas curriculares, test vocacional integral, testimonios de alumnos mayores y comparador de carreras.",
-  keywords: ["PUCP", "Cachimbo 2027", "Malla Curricular PUCP", "Test Vocacional PUCP", "Carreras PUCP"],
+  title: "Mi Carrera PUCP | Construye para el que viene",
+  description: "Plataforma oficial interactiva para postulantes y estudiantes PUCP: mallas curriculares, test vocacional integral, testimonios de alumnos mayores y comparador de carreras.",
+  keywords: ["PUCP", "Mi Carrera PUCP", "Malla Curricular PUCP", "Test Vocacional PUCP", "Carreras PUCP"],
 };
 
 export default function RootLayout({

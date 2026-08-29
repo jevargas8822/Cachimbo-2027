@@ -4,7 +4,7 @@ import { ComparisonView } from "@/components/comparar/ComparisonView";
 import { Scale } from "lucide-react";
 
 export const metadata = {
-  title: "Comparador de Especialidades PUCP | Cachimbo 2027",
+  title: "Comparador de Especialidades PUCP | Mi Carrera PUCP",
   description: "Compara planes de estudio, enfoque técnico y salidas laborales entre dos especialidades de ingeniería PUCP.",
 };
 

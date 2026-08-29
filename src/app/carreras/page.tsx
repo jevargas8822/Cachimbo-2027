@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/Button";
 import { BookOpen, Sparkles, ArrowRight, Layers } from "lucide-react";
 
 export const metadata = {
-  title: "Carreras de Ingeniería PUCP | Cachimbo 2027",
-  description: "Descubre las mallas curriculares interactivas, cursos electivos e inglés de Ingeniería Civil, Informática y Mecatrónica.",
+  title: "Carreras de Ingeniería PUCP | Mi Carrera PUCP",
+  description: "Descubre las mallas curriculares interactivas, cursos electivos y detalles de especialidad de la PUCP.",
 };
 
 export default function CarrerasPage() {
